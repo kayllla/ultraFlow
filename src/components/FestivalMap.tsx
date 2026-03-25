@@ -105,34 +105,41 @@ export default function FestivalMap({
   const pathHighlightId = targetStage?.id ?? highlightStageId;
   const nowMinutes = getNowFestivalMinutes();
 
-  const handleStagePointerDown = (
-    e: React.PointerEvent,
-    stage: Stage
-  ) => {
+  const handleStagePointerDown = (e: React.PointerEvent, stage: Stage) => {
     if (!calibrateMode) return;
     e.stopPropagation();
     e.preventDefault();
-    (e.target as HTMLElement).setPointerCapture(e.pointerId);
     setDragging({ id: stage.id, x: stage.x, y: stage.y });
   };
 
-  const handleStagePointerMove = (e: React.PointerEvent, stageId: string) => {
-    if (!calibrateMode || !dragging || dragging.id !== stageId) return;
-    const { x, y } = clientToPercent(e.clientX, e.clientY);
-    setDragging({ id: stageId, x, y });
-  };
+  /** 手机端地图 touch-pan 会抢走拖拽；改为 window 级 pointer 跟踪，校准更跟手 */
+  useEffect(() => {
+    if (!dragging || !calibrateMode) return;
+    const stageId = dragging.id;
 
-  const handleStagePointerUp = (e: React.PointerEvent, stageId: string) => {
-    if (!calibrateMode || !dragging || dragging.id !== stageId) return;
-    try {
-      (e.target as HTMLElement).releasePointerCapture(e.pointerId);
-    } catch {
-      /* ignore */
-    }
-    const { x, y } = clientToPercent(e.clientX, e.clientY);
-    setStageOverrides((prev) => ({ ...prev, [stageId]: { x, y } }));
-    setDragging(null);
-  };
+    const onMove = (e: PointerEvent) => {
+      const { x, y } = clientToPercent(e.clientX, e.clientY);
+      setDragging((d) => (d && d.id === stageId ? { ...d, x, y } : d));
+    };
+
+    const onEnd = (e: PointerEvent) => {
+      const { x, y } = clientToPercent(e.clientX, e.clientY);
+      setStageOverrides((prev) => ({
+        ...prev,
+        [stageId]: { x, y },
+      }));
+      setDragging(null);
+    };
+
+    window.addEventListener("pointermove", onMove);
+    window.addEventListener("pointerup", onEnd);
+    window.addEventListener("pointercancel", onEnd);
+    return () => {
+      window.removeEventListener("pointermove", onMove);
+      window.removeEventListener("pointerup", onEnd);
+      window.removeEventListener("pointercancel", onEnd);
+    };
+  }, [dragging?.id, calibrateMode, clientToPercent, setStageOverrides]);
 
   const onStageClick = (e: React.MouseEvent, stageId: string) => {
     if (calibrateMode) return;
@@ -215,7 +222,11 @@ export default function FestivalMap({
       {mapOpen && (
         <div>
           <div
-            className="relative rounded-xl overflow-hidden glass touch-pan-x touch-pan-y touch-pinch-zoom"
+            className={`relative rounded-xl overflow-hidden glass ${
+              calibrateMode
+                ? "touch-none"
+                : "touch-pan-x touch-pan-y touch-pinch-zoom"
+            }`}
             ref={containerRef}
           >
             <img
@@ -257,12 +268,9 @@ export default function FestivalMap({
                     tabIndex={0}
                     onClick={(e) => onStageClick(e, stage.id)}
                     onPointerDown={(e) => handleStagePointerDown(e, stage)}
-                    onPointerMove={(e) => handleStagePointerMove(e, stage.id)}
-                    onPointerUp={(e) => handleStagePointerUp(e, stage.id)}
-                    onPointerCancel={() => setDragging(null)}
                     className={`absolute transform -translate-x-1/2 -translate-y-1/2 transition-all duration-300 ${
-                      interactive ? "cursor-grab active:cursor-grabbing" : "cursor-pointer"
-                    } ${calibrateMode ? "" : ""}`}
+                      interactive ? "cursor-grab active:cursor-grabbing touch-none" : "cursor-pointer"
+                    } ${calibrateMode ? "flex min-w-[48px] min-h-[48px] items-center justify-center" : ""}`}
                     style={{
                       left: `${stage.x}%`,
                       top: `${stage.y}%`,

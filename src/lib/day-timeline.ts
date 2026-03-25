@@ -116,7 +116,8 @@ export interface StageGridTimelineData {
 
 /** 桌面默认；手机端在 DayTimeline 传入更大值 */
 export const DEFAULT_TIMELINE_PX_PER_MIN = 2.45;
-export const MOBILE_TIMELINE_PX_PER_MIN = 2.85;
+/** 手机竖屏：略小于桌面，避免日程格过高、难一览 */
+export const MOBILE_TIMELINE_PX_PER_MIN = 1.55;
 
 function formatHourLabel(totalMin: number): string {
   const h24 = Math.floor(totalMin / 60) % 24;

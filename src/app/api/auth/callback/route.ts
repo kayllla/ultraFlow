@@ -6,7 +6,7 @@ export async function GET(request: NextRequest) {
   const code = searchParams.get("code");
   const error = searchParams.get("error");
 
-  const baseUrl = getOAuthAppOrigin(request);
+  const baseUrl = getOAuthAppOrigin(request.url);
   const redirectUri = `${baseUrl}/api/auth/callback`;
 
   if (error || !code) {

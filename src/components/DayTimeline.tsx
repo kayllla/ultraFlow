@@ -53,8 +53,8 @@ export default function DayTimeline({
   stages,
 }: DayTimelineProps) {
   const isMobile = useIsMobile();
-  const labelW = isMobile ? 56 : 64;
-  const colW = isMobile ? 112 : 102;
+  const labelW = isMobile ? 52 : 64;
+  const colW = isMobile ? 100 : 102;
   const pxPerMin = isMobile ? MOBILE_TIMELINE_PX_PER_MIN : DEFAULT_TIMELINE_PX_PER_MIN;
 
   const { setActivePlaybackId, activePlaybackId } = useAudioPlayer();
@@ -130,7 +130,7 @@ export default function DayTimeline({
       </div>
 
       <div
-        className="flex-1 min-h-[min(520px,70dvh)] max-lg:min-h-[calc(100dvh-11.5rem)] lg:min-h-[calc(100vh-148px)] overflow-auto overscroll-x-contain touch-pan-x touch-pan-y [-webkit-overflow-scrolling:touch]"
+        className="flex-1 min-h-[min(360px,52dvh)] max-lg:min-h-[min(380px,58dvh)] lg:min-h-[calc(100vh-148px)] max-h-[min(720px,85dvh)] lg:max-h-none overflow-auto overscroll-x-contain touch-pan-x touch-pan-y [-webkit-overflow-scrolling:touch]"
       >
         {/* 顶行：舞台名 */}
         <div
