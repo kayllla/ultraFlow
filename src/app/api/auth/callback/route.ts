@@ -1,21 +1,22 @@
 import { NextRequest, NextResponse } from "next/server";
-import { exchangeCodeForToken } from "@/lib/spotify";
+import { exchangeCodeForToken, getOAuthAppOrigin } from "@/lib/spotify";
 
 export async function GET(request: NextRequest) {
   const { searchParams } = new URL(request.url);
   const code = searchParams.get("code");
   const error = searchParams.get("error");
 
-  const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || "http://localhost:3000";
+  const baseUrl = getOAuthAppOrigin(request.url);
+  const redirectUri = `${baseUrl}/api/auth/callback`;
 
   if (error || !code) {
     return NextResponse.redirect(
-      `${baseUrl}?error=${error || "no_code"}`
+      `${baseUrl}/?error=${error || "no_code"}`
     );
   }
 
   try {
-    const tokenData = await exchangeCodeForToken(code);
+    const tokenData = await exchangeCodeForToken(code, redirectUri);
 
     const response = NextResponse.redirect(`${baseUrl}/dashboard`);
 
@@ -40,6 +41,6 @@ export async function GET(request: NextRequest) {
     return response;
   } catch (err) {
     console.error("Spotify auth error:", err);
-    return NextResponse.redirect(`${baseUrl}?error=auth_failed`);
+    return NextResponse.redirect(`${baseUrl}/?error=auth_failed`);
   }
 }

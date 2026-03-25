@@ -36,9 +36,18 @@ export async function getClientCredentialsToken(): Promise<string | null> {
   return clientCredentialsCache.token;
 }
 
-export function getSpotifyAuthUrl(): string {
+/**
+ * OAuth redirect_uri 必须与当前访问的站点一致。始终用本次请求的 URL 推导 origin，
+ * 这样 Vercel 线上不依赖 NEXT_PUBLIC_BASE_URL，也不会被误配成 localhost。
+ * 本机请用 http://127.0.0.1:3000 打开（不要用 localhost），并在 Spotify 登记对应 callback。
+ */
+export function getOAuthAppOrigin(requestUrl: string): string {
+  return new URL(requestUrl).origin;
+}
+
+export function getSpotifyAuthUrl(appOrigin: string): string {
   const clientId = process.env.SPOTIFY_CLIENT_ID!;
-  const redirectUri = `${process.env.NEXT_PUBLIC_BASE_URL}/api/auth/callback`;
+  const redirectUri = `${appOrigin}/api/auth/callback`;
 
   const params = new URLSearchParams({
     response_type: "code",
@@ -51,7 +60,7 @@ export function getSpotifyAuthUrl(): string {
   return `${SPOTIFY_AUTH_URL}?${params.toString()}`;
 }
 
-export async function exchangeCodeForToken(code: string) {
+export async function exchangeCodeForToken(code: string, redirectUri: string) {
   const res = await fetch(SPOTIFY_TOKEN_URL, {
     method: "POST",
     headers: {
@@ -63,7 +72,7 @@ export async function exchangeCodeForToken(code: string) {
     body: new URLSearchParams({
       grant_type: "authorization_code",
       code,
-      redirect_uri: `${process.env.NEXT_PUBLIC_BASE_URL}/api/auth/callback`,
+      redirect_uri: redirectUri,
     }),
   });
 
