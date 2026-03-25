@@ -1,3 +1,4 @@
+import type { NextRequest } from "next/server";
 import {
   SPOTIFY_AUTH_URL,
   SPOTIFY_TOKEN_URL,
@@ -37,12 +38,25 @@ export async function getClientCredentialsToken(): Promise<string | null> {
 }
 
 /**
- * OAuth redirect_uri 必须与当前访问的站点一致。始终用本次请求的 URL 推导 origin，
- * 这样 Vercel 线上不依赖 NEXT_PUBLIC_BASE_URL，也不会被误配成 localhost。
- * 本机请用 http://127.0.0.1:3000 打开（不要用 localhost），并在 Spotify 登记对应 callback。
+ * OAuth redirect_uri 必须与 Spotify Dashboard 里登记的地址逐字一致。
+ * Vercel 反代下 `request.url` 有时不是浏览器访问的公网地址，优先用 x-forwarded-*。
+ * 本机：用 http://127.0.0.1:3000，并在 Spotify 登记 http://127.0.0.1:3000/api/auth/callback。
  */
-export function getOAuthAppOrigin(requestUrl: string): string {
-  return new URL(requestUrl).origin;
+export function getOAuthAppOrigin(request: NextRequest): string {
+  const forwardedHost = request.headers.get("x-forwarded-host")?.split(",")[0]?.trim();
+  const forwardedProto = request.headers.get("x-forwarded-proto")?.split(",")[0]?.trim();
+
+  if (forwardedHost) {
+    const isLoopback =
+      forwardedHost.startsWith("localhost:") ||
+      forwardedHost.startsWith("127.") ||
+      forwardedHost === "localhost";
+    const proto =
+      forwardedProto ?? (isLoopback ? "http" : "https");
+    return `${proto}://${forwardedHost}`;
+  }
+
+  return new URL(request.url).origin;
 }
 
 export function getSpotifyAuthUrl(appOrigin: string): string {
