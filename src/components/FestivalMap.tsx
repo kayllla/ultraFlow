@@ -46,6 +46,8 @@ export default function FestivalMap({
   const arriveLabel = formatArrivalClock(arriveAtMins);
 
   const containerRef = useRef<HTMLDivElement>(null);
+  const dragPointerIdRef = useRef<number | null>(null);
+  const dragCaptureElRef = useRef<HTMLElement | null>(null);
   const [dims, setDims] = useState({ width: 0, height: 0 });
   const [mapOpen, setMapOpen] = useState(false);
   const [calibrateMode, setCalibrateMode] = useState(false);
@@ -105,29 +107,64 @@ export default function FestivalMap({
   const pathHighlightId = targetStage?.id ?? highlightStageId;
   const nowMinutes = getNowFestivalMinutes();
 
+  const releaseDragCapture = useCallback(() => {
+    const el = dragCaptureElRef.current;
+    const pid = dragPointerIdRef.current;
+    dragCaptureElRef.current = null;
+    dragPointerIdRef.current = null;
+    if (el != null && pid != null) {
+      try {
+        if (el.hasPointerCapture(pid)) el.releasePointerCapture(pid);
+      } catch {
+        /* ignore */
+      }
+    }
+  }, []);
+
   const handleStagePointerDown = (e: React.PointerEvent, stage: Stage) => {
     if (!calibrateMode) return;
     e.stopPropagation();
     e.preventDefault();
+    const el = e.currentTarget as HTMLElement;
+    dragPointerIdRef.current = e.pointerId;
+    dragCaptureElRef.current = el;
+    try {
+      el.setPointerCapture(e.pointerId);
+    } catch {
+      /* Safari 部分版本无 setPointerCapture 时仍依赖 window 监听 */
+    }
     setDragging({ id: stage.id, x: stage.x, y: stage.y });
   };
 
-  /** 手机端地图 touch-pan 会抢走拖拽；改为 window 级 pointer 跟踪，校准更跟手 */
+  /** 手机端：capture + window 跟踪，避免滚动/系统手势抢走 pointer */
   useEffect(() => {
     if (!dragging || !calibrateMode) return;
     const stageId = dragging.id;
 
     const onMove = (e: PointerEvent) => {
+      if (
+        dragPointerIdRef.current != null &&
+        e.pointerId !== dragPointerIdRef.current
+      ) {
+        return;
+      }
       const { x, y } = clientToPercent(e.clientX, e.clientY);
       setDragging((d) => (d && d.id === stageId ? { ...d, x, y } : d));
     };
 
     const onEnd = (e: PointerEvent) => {
+      if (
+        dragPointerIdRef.current != null &&
+        e.pointerId !== dragPointerIdRef.current
+      ) {
+        return;
+      }
       const { x, y } = clientToPercent(e.clientX, e.clientY);
       setStageOverrides((prev) => ({
         ...prev,
         [stageId]: { x, y },
       }));
+      releaseDragCapture();
       setDragging(null);
     };
 
@@ -138,8 +175,15 @@ export default function FestivalMap({
       window.removeEventListener("pointermove", onMove);
       window.removeEventListener("pointerup", onEnd);
       window.removeEventListener("pointercancel", onEnd);
+      releaseDragCapture();
     };
-  }, [dragging?.id, calibrateMode, clientToPercent, setStageOverrides]);
+  }, [
+    dragging?.id,
+    calibrateMode,
+    clientToPercent,
+    setStageOverrides,
+    releaseDragCapture,
+  ]);
 
   const onStageClick = (e: React.MouseEvent, stageId: string) => {
     if (calibrateMode) return;

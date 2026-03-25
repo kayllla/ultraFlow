@@ -6,6 +6,7 @@ import type { Stage } from "@/types";
 import {
   buildStageGridTimeline,
   DEFAULT_TIMELINE_PX_PER_MIN,
+  MOBILE_MIN_BLOCK_PX,
   MOBILE_TIMELINE_PX_PER_MIN,
 } from "@/lib/day-timeline";
 import { useIsMobile } from "@/hooks/useIsMobile";
@@ -53,9 +54,10 @@ export default function DayTimeline({
   stages,
 }: DayTimelineProps) {
   const isMobile = useIsMobile();
-  const labelW = isMobile ? 52 : 64;
-  const colW = isMobile ? 100 : 102;
+  const labelW = isMobile ? 42 : 64;
+  const colW = isMobile ? 76 : 102;
   const pxPerMin = isMobile ? MOBILE_TIMELINE_PX_PER_MIN : DEFAULT_TIMELINE_PX_PER_MIN;
+  const minBlockPx = isMobile ? MOBILE_MIN_BLOCK_PX : 36;
 
   const { setActivePlaybackId, activePlaybackId } = useAudioPlayer();
   const [loadingId, setLoadingId] = useState<string | null>(null);
@@ -81,9 +83,10 @@ export default function DayTimeline({
         stages,
         liveNowMinutes,
         previewMode,
-        pxPerMin
+        pxPerMin,
+        minBlockPx
       ),
-    [recommendations, stages, liveNowMinutes, previewMode, pxPerMin]
+    [recommendations, stages, liveNowMinutes, previewMode, pxPerMin, minBlockPx]
   );
 
   const handlePlay = async (rec: DJRecommendation) => {
@@ -130,7 +133,7 @@ export default function DayTimeline({
       </div>
 
       <div
-        className="flex-1 min-h-[min(360px,52dvh)] max-lg:min-h-[min(380px,58dvh)] lg:min-h-[calc(100vh-148px)] max-h-[min(720px,85dvh)] lg:max-h-none overflow-auto overscroll-x-contain touch-pan-x touch-pan-y [-webkit-overflow-scrolling:touch]"
+        className="flex-1 min-h-[min(280px,42dvh)] max-lg:min-h-[min(320px,48dvh)] lg:min-h-[calc(100vh-148px)] max-h-[min(720px,85dvh)] lg:max-h-none overflow-auto overscroll-x-contain touch-pan-x touch-pan-y [-webkit-overflow-scrolling:touch]"
       >
         {/* 顶行：舞台名 */}
         <div
@@ -145,7 +148,7 @@ export default function DayTimeline({
             {grid.stageColumns.map(({ stage }) => (
               <div
                 key={stage.id}
-                className="shrink-0 px-1.5 py-2.5 text-center font-display text-[11px] lg:text-[10px] uppercase tracking-[0.1em] leading-snug border-r border-[rgba(184,184,184,0.08)] last:border-r-0 max-lg:min-h-[44px] max-lg:flex max-lg:items-center max-lg:justify-center"
+                className="shrink-0 px-1 py-1.5 max-lg:py-1.5 text-center font-display text-[9px] lg:text-[10px] uppercase tracking-[0.08em] leading-tight border-r border-[rgba(184,184,184,0.08)] last:border-r-0 max-lg:min-h-[32px] max-lg:flex max-lg:items-center max-lg:justify-center"
                 style={{
                   width: colW,
                   color: stage.color,
@@ -167,7 +170,7 @@ export default function DayTimeline({
             {grid.timeLabels.map((tl) => (
               <div
                 key={tl.min}
-                className="absolute left-1.5 right-1 text-xs lg:text-[11px] font-display leading-tight pointer-events-none"
+                className="absolute left-1 right-0.5 max-lg:left-0.5 max-lg:text-[9px] text-xs lg:text-[11px] font-display leading-tight pointer-events-none"
                 style={{
                   top: tl.topPx,
                   color: "rgba(184,184,184,0.5)",
@@ -218,13 +221,13 @@ export default function DayTimeline({
                   key={item.rec.set.id}
                   type="button"
                   onClick={() => handlePlay(item.rec)}
-                  className="absolute text-left cursor-pointer transition-all rounded-sm px-1.5 py-1.5 lg:py-1 overflow-hidden z-[5] max-lg:active:scale-[0.99]"
+                  className="absolute text-left cursor-pointer transition-all rounded-sm px-1 py-0.5 max-lg:px-1 max-lg:py-0.5 lg:py-1 overflow-hidden z-[5] max-lg:active:scale-[0.99]"
                   style={{
                     left,
                     top: item.topPx,
                     width: blockW,
                     height: item.heightPx,
-                    minHeight: isMobile ? 44 : 36,
+                    minHeight: isMobile ? minBlockPx : 36,
                     background: item.isLive && !previewMode
                       ? "rgba(57,255,20,0.14)"
                       : "rgba(255,255,255,0.07)",
@@ -238,15 +241,15 @@ export default function DayTimeline({
                   }}
                   title={`${item.rec.artist.name} · ${item.rec.stage.name}`}
                 >
-                  <div className="text-[12px] lg:text-[11px] font-display uppercase truncate leading-snug text-white/92">
+                  <div className="text-[10px] max-lg:text-[9px] lg:text-[11px] font-display uppercase truncate leading-tight text-white/92">
                     {item.rec.artist.name}
                   </div>
-                  <div className="text-[11px] lg:text-[9px] text-white/45 leading-snug mt-0.5">
+                  <div className="text-[9px] max-lg:text-[8px] lg:text-[9px] text-white/45 leading-tight mt-px max-lg:mt-0">
                     {formatSetTime(item.rec.set.startTime)} –{" "}
                     {formatSetTime(item.rec.set.endTime)}
                   </div>
                   <div
-                    className="text-[10px] lg:text-[9px] truncate mt-0.5"
+                    className="text-[8px] max-lg:text-[7px] lg:text-[9px] truncate mt-px max-lg:mt-0 leading-tight"
                     style={{ color: item.rec.stage.color }}
                   >
                     {loadingId === item.rec.set.id ? "…" : item.rec.stage.name}

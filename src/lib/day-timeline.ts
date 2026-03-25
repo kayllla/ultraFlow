@@ -114,10 +114,12 @@ export interface StageGridTimelineData {
   timeLabels: { min: number; label: string; topPx: number }[];
 }
 
-/** 桌面默认；手机端在 DayTimeline 传入更大值 */
+/** 桌面默认；手机端在 DayTimeline 传入更小值以一览全天 */
 export const DEFAULT_TIMELINE_PX_PER_MIN = 2.45;
-/** 手机竖屏：略小于桌面，避免日程格过高、难一览 */
-export const MOBILE_TIMELINE_PX_PER_MIN = 1.55;
+/** 手机竖屏：明显压缩纵轴，便于一屏看到更多时段 */
+export const MOBILE_TIMELINE_PX_PER_MIN = 0.92;
+/** 手机端演出块最小高度（桌面仍用函数内默认 36） */
+export const MOBILE_MIN_BLOCK_PX = 22;
 
 function formatHourLabel(totalMin: number): string {
   const h24 = Math.floor(totalMin / 60) % 24;
@@ -136,7 +138,8 @@ export function buildStageGridTimeline(
   stageOrder: Stage[],
   nowMinutes: number,
   previewMode: boolean,
-  pxPerMin: number = DEFAULT_TIMELINE_PX_PER_MIN
+  pxPerMin: number = DEFAULT_TIMELINE_PX_PER_MIN,
+  minBlockPx: number = 36
 ): StageGridTimelineData {
   if (recommendations.length === 0) {
     return {
@@ -172,7 +175,7 @@ export function buildStageGridTimeline(
     const startMin = timeToMinutes(rec.set.startTime);
     const endMin = timeToMinutes(rec.set.endTime);
     const topPx = (startMin - windowStart) * pxPerMin;
-    const heightPx = Math.max(36, (endMin - startMin) * pxPerMin);
+    const heightPx = Math.max(minBlockPx, (endMin - startMin) * pxPerMin);
 
     let isPast = false;
     let isLive = false;
