@@ -1,0 +1,940 @@
+{
+  "999999999": {
+    "hyped": 90,
+    "reputation": 80,
+    "vibe": "Relentless techno with pounding beats and hypnotic rhythms.",
+    "targetAudience": "Hard techno lovers and rave warriors.",
+    "festivalContext": "After-hours for a high-energy techno marathon."
+  },
+  "Frank Walker": {
+    "hyped": 65,
+    "reputation": 55,
+    "vibe": "Feel-good anthems with uplifting melodies and sing-along moments.",
+    "targetAudience": "Fans of melodic house and good vibes.",
+    "festivalContext": "Perfect for a sunny afternoon set to uplift the crowd."
+  },
+  "VOYD": {
+    "hyped": 85,
+    "reputation": 75,
+    "vibe": "Intense bass and dark, mysterious soundscapes.",
+    "targetAudience": "Bassheads and lovers of experimental electronic.",
+    "festivalContext": "Late-night slot for those chasing a heavy, immersive experience."
+  },
+  "Worship": {
+    "hyped": 70,
+    "reputation": 60,
+    "vibe": "Euphoric beats with spiritual undertones and atmospheric vibes.",
+    "targetAudience": "Fans of ethereal sounds and transcendental beats.",
+    "festivalContext": "Catch them at dusk for a spiritual lift."
+  },
+  "Illenium": {
+    "hyped": 90,
+    "reputation": 95,
+    "vibe": "Emotional rollercoaster with heart-pounding drops and beautiful melodies.",
+    "targetAudience": "Emo-ravers and melodic bass enthusiasts.",
+    "festivalContext": "Prime-time set for an emotional journey under the stars."
+  },
+  "BZRP": {
+    "hyped": 80,
+    "reputation": 85,
+    "vibe": "High-energy Latin beats with unexpected twists.",
+    "targetAudience": "Latin music lovers and dance enthusiasts.",
+    "festivalContext": "Afternoon or evening for a vibrant, dance-filled session."
+  },
+  "Alesso B2B Martin Garrix": {
+    "hyped": 95,
+    "reputation": 100,
+    "vibe": "Epic mainstage energy with massive anthems and crowd sing-alongs.",
+    "targetAudience": "Mainstage EDM lovers and festival die-hards.",
+    "festivalContext": "Headline slot for an unforgettable mainstage experience."
+  },
+  "Major Lazer": {
+    "hyped": 90,
+    "reputation": 95,
+    "vibe": "Global beats with infectious rhythm and island vibes.",
+    "targetAudience": "Fans of dancehall, reggae, and party anthems.",
+    "festivalContext": "Sunset set to turn up the festival energy."
+  },
+  "PRADA2000": {
+    "hyped": 60,
+    "reputation": 50,
+    "vibe": "Trendy beats with a modern twist and youthful flair.",
+    "targetAudience": "Gen Z and trendsetters.",
+    "festivalContext": "Afternoon slot for a fresh and trendy vibe."
+  },
+  "Matty Ralph": {
+    "hyped": 55,
+    "reputation": 45,
+    "vibe": "Chilled-out grooves with soothing melodies.",
+    "targetAudience": "Chill-seekers and fans of laid-back vibes.",
+    "festivalContext": "Ideal for a relaxed early afternoon set."
+  },
+  "Superstrings": {
+    "hyped": 70,
+    "reputation": 60,
+    "vibe": "Melodic trance with uplifting strings and ethereal soundscapes.",
+    "targetAudience": "Trance lovers and melody enthusiasts.",
+    "festivalContext": "Dusk set to elevate the spirits with melodic highs."
+  },
+  "Vini Vici": {
+    "hyped": 85,
+    "reputation": 90,
+    "vibe": "Psychedelic psytrance with relentless beats and tribal rhythms.",
+    "targetAudience": "Psytrance fans and high-energy dancers.",
+    "festivalContext": "Late-night slot for a trance-inducing dance frenzy."
+  },
+  "Lilly Palmer": {
+    "hyped": 75,
+    "reputation": 70,
+    "vibe": "Driving techno with deep, hypnotic basslines.",
+    "targetAudience": "Underground techno fans and night owls.",
+    "festivalContext": "Late-night set for those seeking a techno journey."
+  },
+  "Armin Van Buuren B2B Marlon Hoffstadt": {
+    "hyped": 85,
+    "reputation": 95,
+    "vibe": "Epic trance meets groovy house with an unexpected twist.",
+    "targetAudience": "Trance fans and house lovers.",
+    "festivalContext": "Peak-time set for an eclectic dance experience."
+  },
+  "Armin Van Buuren": {
+    "hyped": 95,
+    "reputation": 100,
+    "vibe": "Legendary trance anthems with euphoric highs.",
+    "targetAudience": "Trance family and festival veterans.",
+    "festivalContext": "Prime-time mainstage for an unforgettable trance journey."
+  },
+  "MAR-T": {
+    "hyped": 70,
+    "reputation": 65,
+    "vibe": "Funky house grooves with a playful edge.",
+    "targetAudience": "House music lovers and party-goers.",
+    "festivalContext": "Daytime set for a groovy, feel-good vibe."
+  },
+  "Massano": {
+    "hyped": 65,
+    "reputation": 60,
+    "vibe": "Melodic techno with a deep, emotional core.",
+    "targetAudience": "Melodic techno enthusiasts and deep thinkers.",
+    "festivalContext": "Evening set for a melodic techno journey."
+  },
+  "Miss Monique": {
+    "hyped": 80,
+    "reputation": 75,
+    "vibe": "Progressive house with a hypnotic flow.",
+    "targetAudience": "Progressive house fans and deep groove seekers.",
+    "festivalContext": "Sunset slot for progressive house magic."
+  },
+  "Vintage Culture": {
+    "hyped": 85,
+    "reputation": 85,
+    "vibe": "House and disco-infused beats with a Brazilian flair.",
+    "targetAudience": "House music lovers and dance enthusiasts.",
+    "festivalContext": "Perfect for a lively evening set with dance vibes."
+  },
+  "Eric Prydz": {
+    "hyped": 95,
+    "reputation": 100,
+    "vibe": "Mind-bending visuals with progressive house mastery.",
+    "targetAudience": "Visuals enthusiasts and prog-house fans.",
+    "festivalContext": "Headliner set for an epic audio-visual experience."
+  },
+  "Godtripper": {
+    "hyped": 60,
+    "reputation": 50,
+    "vibe": "Psychedelic textures with a chill atmosphere.",
+    "targetAudience": "Psy fans and those seeking a mellow vibe.",
+    "festivalContext": "Early evening for a relaxing, psychedelic journey."
+  },
+  "ALT8": {
+    "hyped": 70,
+    "reputation": 60,
+    "vibe": "Raw techno beats with an industrial edge.",
+    "targetAudience": "Techno heads and underground enthusiasts.",
+    "festivalContext": "Late-night set for an intense techno session."
+  },
+  "Clara Cuve": {
+    "hyped": 75,
+    "reputation": 70,
+    "vibe": "Eclectic techno sets with dynamic energy.",
+    "targetAudience": "Techno enthusiasts and eclectic sound seekers.",
+    "festivalContext": "Evening set for a diverse techno experience."
+  },
+  "Sara Landry": {
+    "hyped": 80,
+    "reputation": 75,
+    "vibe": "Hard-hitting techno with a fierce edge.",
+    "targetAudience": "Techno purists and high-energy dancers.",
+    "festivalContext": "Late-night slot for a powerful techno set."
+  },
+  "Afrobeta": {
+    "hyped": 65,
+    "reputation": 55,
+    "vibe": "Funky electro-pop with vibrant energy.",
+    "targetAudience": "Fans of eclectic and funky beats.",
+    "festivalContext": "Daytime slot for a fun, danceable vibe."
+  },
+  "Shima": {
+    "hyped": 60,
+    "reputation": 50,
+    "vibe": "Chill electronic with a dreamy atmosphere.",
+    "targetAudience": "Chill music lovers and dreamers.",
+    "festivalContext": "Early afternoon for a relaxed start to the day."
+  },
+  "Black Tiger Sex Machine": {
+    "hyped": 90,
+    "reputation": 85,
+    "vibe": "High-intensity bass with a futuristic edge.",
+    "targetAudience": "Bassheads and sci-fi music fans.",
+    "festivalContext": "Late-night for a powerful, immersive bass experience."
+  },
+  "Of The Trees": {
+    "hyped": 75,
+    "reputation": 70,
+    "vibe": "Bass-heavy beats with organic textures.",
+    "targetAudience": "Bass music lovers and nature-inspired sound seekers.",
+    "festivalContext": "Evening slot for a bass-filled organic journey."
+  },
+  "Levity": {
+    "hyped": 55,
+    "reputation": 45,
+    "vibe": "Uplifting melodies with light, airy beats.",
+    "targetAudience": "Fans of melodic and chill electronic.",
+    "festivalContext": "Early afternoon for a serene, uplifting experience."
+  },
+  "Ookay": {
+    "hyped": 80,
+    "reputation": 75,
+    "vibe": "Fun, genre-blending sets with infectious energy.",
+    "targetAudience": "Those who love diverse, playful electronic sets.",
+    "festivalContext": "Afternoon slot for a high-energy, eclectic performance."
+  },
+  "Nostalgix": {
+    "hyped": 70,
+    "reputation": 65,
+    "vibe": "Bass-driven house with a nostalgic twist.",
+    "targetAudience": "House music fans and bass lovers.",
+    "festivalContext": "Evening set for a danceable, bass-heavy vibe."
+  },
+  "Jessica Audiffred": {
+    "hyped": 85,
+    "reputation": 80,
+    "vibe": "Explosive bass with electrifying drops.",
+    "targetAudience": "Bassheads and high-energy dancers.",
+    "festivalContext": "Nighttime set for an intense bass experience."
+  },
+  "Steve Aoki": {
+    "hyped": 95,
+    "reputation": 95,
+    "vibe": "Party anthems with cake-throwing madness.",
+    "targetAudience": "Party animals and festival veterans.",
+    "festivalContext": "Prime-time slot for a wild, unforgettable party."
+  },
+  "Laidback Luke": {
+    "hyped": 80,
+    "reputation": 85,
+    "vibe": "High-energy house with a legendary touch.",
+    "targetAudience": "House music lovers and long-time fans.",
+    "festivalContext": "Mainstage evening for a classic house party."
+  },
+  "Riot Ten": {
+    "hyped": 90,
+    "reputation": 80,
+    "vibe": "Hard-hitting dubstep and trap with relentless drops.",
+    "targetAudience": "Dubstep fans and mosh pit enthusiasts.",
+    "festivalContext": "After-hours for a chaotic, high-energy experience."
+  },
+  "Bloody Beetroots": {
+    "hyped": 85,
+    "reputation": 85,
+    "vibe": "Punk-infused electro with high-octane energy.",
+    "targetAudience": "Electro lovers and rock-influenced EDM fans.",
+    "festivalContext": "Evening slot for an energetic, punk-fueled rave."
+  },
+  "Nudos": {
+    "hyped": 60,
+    "reputation": 50,
+    "vibe": "Smooth, melodic sounds with a hint of mystery.",
+    "targetAudience": "Melodic music fans and chill seekers.",
+    "festivalContext": "Afternoon set for a soothing melodic journey."
+  },
+  "Los De La Vega": {
+    "hyped": 65,
+    "reputation": 55,
+    "vibe": "Latin-infused beats with tropical flair.",
+    "targetAudience": "Latin music lovers and summer vibe seekers.",
+    "festivalContext": "Daytime for a vibrant, sunny dance session."
+  },
+  "Luca Testa": {
+    "hyped": 70,
+    "reputation": 60,
+    "vibe": "Energetic beats with a captivating Italian flair.",
+    "targetAudience": "EDM lovers and those seeking a lively set.",
+    "festivalContext": "Evening slot for a high-energy, Italian-infused experience."
+  },
+  "Gil Glaze": {
+    "hyped": 65,
+    "reputation": 60,
+    "vibe": "Smooth house vibes with a polished finish.",
+    "targetAudience": "House music fans and smooth groove enthusiasts.",
+    "festivalContext": "Early evening for a sleek, danceable set."
+  },
+  "Mykris": {
+    "hyped": 75,
+    "reputation": 70,
+    "vibe": "Dynamic beats with a Miami flair.",
+    "targetAudience": "Festival goers and local music supporters.",
+    "festivalContext": "Daytime set for a vibrant, Miami-inspired session."
+  },
+  "Halo": {
+    "hyped": 60,
+    "reputation": 55,
+    "vibe": "Ethereal sounds with a celestial touch.",
+    "targetAudience": "Fans of ambient and ethereal music.",
+    "festivalContext": "Early afternoon for a heavenly, uplifting experience."
+  },
+  "Nicky Romero": {
+    "hyped": 90,
+    "reputation": 90,
+    "vibe": "Progressive house anthems with a powerful drop.",
+    "targetAudience": "Mainstage EDM fans and progressive house lovers.",
+    "festivalContext": "Mainstage evening for a peak-time house set."
+  },
+  "Loud Luxury": {
+    "hyped": 85,
+    "reputation": 80,
+    "vibe": "Catchy house tunes with a summertime feel.",
+    "targetAudience": "Party-goers and summer vibe enthusiasts.",
+    "festivalContext": "Afternoon set for a feel-good, poolside vibe."
+  },
+  "Alan Walker": {
+    "hyped": 85,
+    "reputation": 90,
+    "vibe": "Melodic EDM with cinematic elements.",
+    "targetAudience": "EDM fans and lovers of melodic anthems.",
+    "festivalContext": "Evening set for a dramatic, melodic experience."
+  },
+  "Excision": {
+    "hyped": 98,
+    "reputation": 95,
+    "vibe": "Bone-rattling bass drops with electrifying visuals and relentless energy.",
+    "targetAudience": "Bassheads and dubstep lovers craving intense energy.",
+    "festivalContext": "Catch at night for maximum bass impact and visual spectacle."
+  },
+  "Hardwell": {
+    "hyped": 90,
+    "reputation": 92,
+    "vibe": "Euphoric big room anthems that ignite massive singalongs.",
+    "targetAudience": "Mainstage enthusiasts and big room fans.",
+    "festivalContext": "Perfect for closing sets, uniting the crowd in anthem-driven euphoria."
+  },
+  "Sebastian Ingrosso B2B Steve Angello": {
+    "hyped": 88,
+    "reputation": 94,
+    "vibe": "Melodic progressive house that builds towards explosive crescendos.",
+    "targetAudience": "Swedish House Mafia devotees and progressive house fans.",
+    "festivalContext": "Ideal for sunset slots, bridging day and night with melodic peaks."
+  },
+  "Julian Cross": {
+    "hyped": 65,
+    "reputation": 50,
+    "vibe": "Feel-good grooves with a touch of tropical warmth.",
+    "targetAudience": "Daytime chillers and tropical house lovers.",
+    "festivalContext": "Afternoon set to soak up sunny vibes and relaxed melodies."
+  },
+  "Distinct Motive": {
+    "hyped": 70,
+    "reputation": 55,
+    "vibe": "Deep, minimal bass music with a dark, hypnotic edge.",
+    "targetAudience": "Bass connoisseurs and deep dubstep fans.",
+    "festivalContext": "Late-night set for a deep dive into immersive bass."
+  },
+  "Sidequest": {
+    "hyped": 60,
+    "reputation": 45,
+    "vibe": "Eclectic soundscapes with a journey through varied electronic styles.",
+    "targetAudience": "Explorers of new sounds and genres.",
+    "festivalContext": "Catch in early evening for a diverse musical exploration."
+  },
+  "Daniel Allan": {
+    "hyped": 68,
+    "reputation": 60,
+    "vibe": "Innovative future bass with an emotional, uplifting twist.",
+    "targetAudience": "Fans of melodic bass and forward-thinking sounds.",
+    "festivalContext": "Midday set for uplifting energy and fresh sounds."
+  },
+  "ARMNHMR": {
+    "hyped": 85,
+    "reputation": 80,
+    "vibe": "Emotionally charged melodic bass that tugs at heartstrings.",
+    "targetAudience": "Melodic bass lovers and emotional ravers.",
+    "festivalContext": "Sunset slot for a perfect blend of energy and emotion."
+  },
+  "HOL!": {
+    "hyped": 72,
+    "reputation": 60,
+    "vibe": "Hard-hitting basslines with a playful, experimental twist.",
+    "targetAudience": "Bass lovers seeking unique, playful soundscapes.",
+    "festivalContext": "Late afternoon for a quirky bass adventure."
+  },
+  "BOU": {
+    "hyped": 78,
+    "reputation": 65,
+    "vibe": "Energetic drum and bass with a sharp, bouncy rhythm.",
+    "targetAudience": "Drum and bass enthusiasts ready to bounce.",
+    "festivalContext": "Evening set for high-octane drum and bass energy."
+  },
+  "Kai Wachi": {
+    "hyped": 92,
+    "reputation": 85,
+    "vibe": "Intense, face-melting bass with raw, primal energy.",
+    "targetAudience": "Hardcore bassheads and heavy dubstep lovers.",
+    "festivalContext": "Nighttime set for experiencing brutal bass energy."
+  },
+  "The Outlaw B2B Trym": {
+    "hyped": 80,
+    "reputation": 70,
+    "vibe": "Hard-hitting techno with relentless beats and underground flair.",
+    "targetAudience": "Techno purists and underground rave enthusiasts.",
+    "festivalContext": "Late-night set for an underground techno journey."
+  },
+  "Hamdi": {
+    "hyped": 75,
+    "reputation": 60,
+    "vibe": "Bass-driven beats with a Middle Eastern influence.",
+    "targetAudience": "Fans of global bass and cultural fusions.",
+    "festivalContext": "Early evening for a cultural bass exploration."
+  },
+  "ISOXO": {
+    "hyped": 85,
+    "reputation": 75,
+    "vibe": "Raucous trap-infused beats with a high-energy punch.",
+    "targetAudience": "Trap enthusiasts and mosh pit seekers.",
+    "festivalContext": "Nighttime set for a trap-heavy adrenaline rush."
+  },
+  "Andy Pate B2B Rod B.": {
+    "hyped": 65,
+    "reputation": 55,
+    "vibe": "Groovy tech house with a deep, rhythmic flow.",
+    "targetAudience": "Tech house aficionados and groove lovers.",
+    "festivalContext": "Afternoon groove session with tech house rhythms."
+  },
+  "Juliet Fox": {
+    "hyped": 77,
+    "reputation": 70,
+    "vibe": "Driving techno with hypnotic vocals and pulsing energy.",
+    "targetAudience": "Techno lovers and vocal enthusiasts.",
+    "festivalContext": "Evening set for hypnotic techno journeys."
+  },
+  "Alan Fitzpatrick B2B Marco Faraone": {
+    "hyped": 88,
+    "reputation": 85,
+    "vibe": "Heavy-hitting techno with seamless transitions and relentless beats.",
+    "targetAudience": "Devotees of pounding, driving techno.",
+    "festivalContext": "Prime time for a deep dive into heavy techno."
+  },
+  "Sasha & John Digweed": {
+    "hyped": 83,
+    "reputation": 95,
+    "vibe": "Legendary progressive house journeys with seamless, hypnotic transitions.",
+    "targetAudience": "Progressive house purists and longtime dance music fans.",
+    "festivalContext": "Catch at sunset for a masterclass in progressive house."
+  },
+  "Eli Brown": {
+    "hyped": 80,
+    "reputation": 75,
+    "vibe": "Energetic tech house with infectious grooves and driving beats.",
+    "targetAudience": "Tech house fans and groove seekers.",
+    "festivalContext": "Late afternoon for a dancefloor-focused tech house session."
+  },
+  "Adam Beyer B2B Joseph Capriati": {
+    "hyped": 90,
+    "reputation": 92,
+    "vibe": "Powerful techno with precision-crafted beats and intense energy.",
+    "targetAudience": "Techno enthusiasts seeking peak energy moments.",
+    "festivalContext": "Prime time for a relentless techno onslaught."
+  },
+  "Carl Cox": {
+    "hyped": 95,
+    "reputation": 100,
+    "vibe": "Timeless techno with unmatched energy and masterful crowd control.",
+    "targetAudience": "Techno lovers and dance music veterans.",
+    "festivalContext": "Headlining set for a legendary techno experience."
+  },
+  "JOA": {
+    "hyped": 60,
+    "reputation": 50,
+    "vibe": "Eclectic beats with a blend of organic and electronic sounds.",
+    "targetAudience": "Fans of eclectic and experimental electronic music.",
+    "festivalContext": "Daytime set for a fresh and exploratory musical journey."
+  },
+  "Olympe": {
+    "hyped": 65,
+    "reputation": 55,
+    "vibe": "Lush soundscapes with a dreamy, ethereal quality.",
+    "targetAudience": "Chillout seekers and dreamers.",
+    "festivalContext": "Afternoon set for a relaxing, immersive experience."
+  },
+  "Rivo": {
+    "hyped": 70,
+    "reputation": 60,
+    "vibe": "Feel-good house tunes with a sunny, uplifting vibe.",
+    "targetAudience": "House music lovers and daytime dancers.",
+    "festivalContext": "Perfect for a midday dance session under the sun."
+  },
+  "Kasia": {
+    "hyped": 63,
+    "reputation": 55,
+    "vibe": "Melodic and enchanting beats with a subtle, captivating flow.",
+    "targetAudience": "Fans of melodic and enchanting electronic music.",
+    "festivalContext": "Early evening for a melodic and captivating experience."
+  },
+  "Deep Dish": {
+    "hyped": 85,
+    "reputation": 90,
+    "vibe": "Deep, progressive house with a journey-like quality.",
+    "targetAudience": "Progressive house fans and Deep Dish devotees.",
+    "festivalContext": "Catch at sunset for a deep and immersive journey."
+  },
+  "Colyn B2B Innellea": {
+    "hyped": 82,
+    "reputation": 80,
+    "vibe": "Melodic techno with a cinematic, otherworldly feel.",
+    "targetAudience": "Melodic techno enthusiasts and deep journey seekers.",
+    "festivalContext": "Evening set for a cinematic melodic techno experience."
+  },
+  "Madeon": {
+    "hyped": 87,
+    "reputation": 88,
+    "vibe": "Vibrant, visually-stunning performances with emotional and uplifting tracks.",
+    "targetAudience": "Fans of live electronic performances and vibrant visuals.",
+    "festivalContext": "Nighttime slot for a visually and emotionally stunning performance."
+  },
+  "Cassian": {
+    "hyped": 75,
+    "reputation": 70,
+    "vibe": "Smooth, melodic house with a touch of nostalgia.",
+    "targetAudience": "Melodic house lovers and nostalgia seekers.",
+    "festivalContext": "Afternoon set for a smooth and melodic experience."
+  },
+  "Joris Voorn B2B Korolova": {
+    "hyped": 86,
+    "reputation": 85,
+    "vibe": "Dynamic techno with melodic flourishes and deep grooves.",
+    "targetAudience": "Techno fans who appreciate melodic elements.",
+    "festivalContext": "Late evening for dynamic and melodic techno grooves."
+  },
+  "Miss Bashful": {
+    "hyped": 60,
+    "reputation": 50,
+    "vibe": "Playful beats with a quirky, uplifting energy.",
+    "targetAudience": "Fans of playful and quirky electronic tunes.",
+    "festivalContext": "Daytime set for a fun and uplifting experience."
+  },
+  "Confidence Man": {
+    "hyped": 80,
+    "reputation": 70,
+    "vibe": "High-energy performance with infectious dance moves and catchy beats.",
+    "targetAudience": "Dance-pop enthusiasts and high-energy performers.",
+    "festivalContext": "Afternoon for a lively, dance-filled performance."
+  },
+  "Snow Strippers": {
+    "hyped": 68,
+    "reputation": 60,
+    "vibe": "Eccentric, energetic beats with an avant-garde twist.",
+    "targetAudience": "Fans of experimental and avant-garde electronic music.",
+    "festivalContext": "Afternoon set for an eclectic and energetic experience."
+  },
+  "Boys Noize": {
+    "hyped": 90,
+    "reputation": 85,
+    "vibe": "Raw, industrial electro with a rebellious edge.",
+    "targetAudience": "Electro enthusiasts and fans of raw, industrial sounds.",
+    "festivalContext": "Nighttime for a raw and rebellious electro experience."
+  },
+  "Brutalismus 3000": {
+    "hyped": 75,
+    "reputation": 65,
+    "vibe": "Hard-hitting techno with a brutal, industrial feel.",
+    "targetAudience": "Techno fans craving intense, industrial beats.",
+    "festivalContext": "Late-night for a hard-hitting industrial techno session."
+  },
+  "The Purge": {
+    "hyped": 82,
+    "reputation": 70,
+    "vibe": "High-energy hardstyle with relentless kicks and aggressive melodies.",
+    "targetAudience": "Hardstyle enthusiasts and energy seekers.",
+    "festivalContext": "Nighttime for a high-energy hardstyle explosion."
+  },
+  "The Saints": {
+    "hyped": 65,
+    "reputation": 55,
+    "vibe": "Uplifting house with a focus on joyful, melodic tunes.",
+    "targetAudience": "House music fans seeking joyful vibes.",
+    "festivalContext": "Daytime set for uplifting, joyful house music."
+  },
+  "Coone": {
+    "hyped": 88,
+    "reputation": 80,
+    "vibe": "Explosive hardstyle with pounding beats and euphoric anthems.",
+    "targetAudience": "Hardstyle lovers and adrenaline junkies.",
+    "festivalContext": "Nighttime set for an explosive hardstyle experience."
+  },
+  "Da Tweekaz": {
+    "hyped": 85,
+    "reputation": 80,
+    "vibe": "Energetic hardstyle with playful, catchy melodies.",
+    "targetAudience": "Hardstyle fans and those looking for a playful twist.",
+    "festivalContext": "Evening set for energetic, playful hardstyle fun."
+  },
+  "Mish": {
+    "hyped": 70,
+    "reputation": 60,
+    "vibe": "Melodic techno with a smooth, entrancing flow.",
+    "targetAudience": "Fans of melodic and entrancing techno.",
+    "festivalContext": "Early evening for a smooth, melodic techno journey."
+  },
+  "D-Sturb": {
+    "hyped": 90,
+    "reputation": 85,
+    "vibe": "Hard-hitting rawstyle with aggressive beats and high intensity.",
+    "targetAudience": "Rawstyle enthusiasts and high-intensity seekers.",
+    "festivalContext": "Late-night for a hard-hitting rawstyle onslaught."
+  },
+  "Dual Damage": {
+    "hyped": 72,
+    "reputation": 65,
+    "vibe": "High-energy bass with a twist of experimental beats.",
+    "targetAudience": "Bass lovers seeking experimental and high-energy beats.",
+    "festivalContext": "Late afternoon for a high-energy bass adventure."
+  },
+  "Soren": {
+    "hyped": 68,
+    "reputation": 60,
+    "vibe": "Deep, atmospheric beats with a hypnotic, immersive quality.",
+    "targetAudience": "Fans of deep, atmospheric electronic music.",
+    "festivalContext": "Evening set for an immersive, hypnotic experience."
+  },
+  "Kaoru": {
+    "hyped": 65,
+    "reputation": 55,
+    "vibe": "Melodic and dreamy beats with a serene, calming effect.",
+    "targetAudience": "Chillout enthusiasts and those seeking serene vibes.",
+    "festivalContext": "Afternoon set for a serene, calming musical journey."
+  },
+  "CVMRN": {
+    "hyped": 60,
+    "reputation": 50,
+    "vibe": "Eclectic beats with a blend of electronic and organic elements.",
+    "targetAudience": "Fans of eclectic and experimental sounds.",
+    "festivalContext": "Daytime set for an eclectic and exploratory experience."
+  },
+  "Lucy Guo": {
+    "hyped": 65,
+    "reputation": 45,
+    "vibe": "Futuristic beats interweaving tech and music in a digital journey.",
+    "targetAudience": "Tech enthusiasts and electronic music explorers.",
+    "festivalContext": "Catch her afternoon set for an innovative electronic experience."
+  },
+  "Wally Lopez": {
+    "hyped": 70,
+    "reputation": 60,
+    "vibe": "Groovy house beats that make you feel like dancing in Ibiza.",
+    "targetAudience": "House lovers and groove seekers.",
+    "festivalContext": "Perfect for a sunset set to get the night started."
+  },
+  "Kapuchon": {
+    "hyped": 75,
+    "reputation": 50,
+    "vibe": "Uplifting rhythms that keep the energy high and spirits lifted.",
+    "targetAudience": "Fans of feel-good and uplifting house.",
+    "festivalContext": "Mid-afternoon slot to boost the crowd's energy."
+  },
+  "Me N U": {
+    "hyped": 60,
+    "reputation": 40,
+    "vibe": "Chill electronic vibes perfect for relaxing and unwinding.",
+    "targetAudience": "Chill seekers and electronic music fans.",
+    "festivalContext": "Ideal for a late afternoon relaxation session."
+  },
+  "R3HAB": {
+    "hyped": 85,
+    "reputation": 90,
+    "vibe": "Explosive drops and crowd anthems that ignite the night.",
+    "targetAudience": "Mainstage lovers and party starters.",
+    "festivalContext": "Prime-time headliner to elevate the night."
+  },
+  "Maddix": {
+    "hyped": 80,
+    "reputation": 70,
+    "vibe": "High-energy big room sounds that shake the festival ground.",
+    "targetAudience": "Big room and festival anthem enthusiasts.",
+    "festivalContext": "Early evening set to ramp up the energy."
+  },
+  "ARTBAT": {
+    "hyped": 78,
+    "reputation": 85,
+    "vibe": "Hypnotic techno journeys that transport you to another dimension.",
+    "targetAudience": "Techno travelers and deep house lovers.",
+    "festivalContext": "Catch them at night for an immersive experience."
+  },
+  "Marlon Hoffstadt": {
+    "hyped": 65,
+    "reputation": 55,
+    "vibe": "Feel-good house beats with a touch of Berlin's underground.",
+    "targetAudience": "Underground house fans and dance enthusiasts.",
+    "festivalContext": "Perfect for a midday dance session."
+  },
+  "Afrojack": {
+    "hyped": 90,
+    "reputation": 95,
+    "vibe": "Massive anthems and electric energy that dominate the main stage.",
+    "targetAudience": "Mainstage ravers and EDM aficionados.",
+    "festivalContext": "Must-see headliner for peak festival energy."
+  },
+  "DJ Snake": {
+    "hyped": 95,
+    "reputation": 98,
+    "vibe": "Global hits and infectious beats that unite the crowd.",
+    "targetAudience": "Hit lovers and party goers.",
+    "festivalContext": "Headlining set to close the night with a bang."
+  },
+  "John Summit": {
+    "hyped": 88,
+    "reputation": 80,
+    "vibe": "Vibrant house grooves that keep the dance floor moving.",
+    "targetAudience": "House fans and groove addicts.",
+    "festivalContext": "Prime-time slot to energize the crowd."
+  },
+  "Big Florida": {
+    "hyped": 60,
+    "reputation": 35,
+    "vibe": "Laid-back beats that capture the essence of a Floridian sunset.",
+    "targetAudience": "Chill-out music fans.",
+    "festivalContext": "Catch them during a chill afternoon session."
+  },
+  "JSTJR": {
+    "hyped": 75,
+    "reputation": 60,
+    "vibe": "Global bass and eclectic rhythms that move your feet.",
+    "targetAudience": "Global bass fans and dance explorers.",
+    "festivalContext": "Late afternoon set for a unique dance experience."
+  },
+  "BOLO": {
+    "hyped": 70,
+    "reputation": 50,
+    "vibe": "Dynamic beats that blend underground vibes with mainstream appeal.",
+    "targetAudience": "Underground scene supporters.",
+    "festivalContext": "Warm-up the evening with an eclectic set."
+  },
+  "LAYZ": {
+    "hyped": 68,
+    "reputation": 55,
+    "vibe": "Energetic bass-driven sets that keep the crowd bouncing.",
+    "targetAudience": "Bass heads and energy seekers.",
+    "festivalContext": "Catch them in the late afternoon for a bassy boost."
+  },
+  "Andy C": {
+    "hyped": 90,
+    "reputation": 92,
+    "vibe": "Relentless drum and bass that keeps the crowd in constant motion.",
+    "targetAudience": "Drum and bass enthusiasts.",
+    "festivalContext": "Late-night set to keep the adrenaline pumping."
+  },
+  "Holy Priest": {
+    "hyped": 60,
+    "reputation": 40,
+    "vibe": "Mellow electronic sounds with a hint of spiritual energy.",
+    "targetAudience": "Spiritual music explorers.",
+    "festivalContext": "Afternoon set for a relaxed, introspective vibe."
+  },
+  "Peekaboo": {
+    "hyped": 85,
+    "reputation": 75,
+    "vibe": "Dark, heavy bass that rattles your core.",
+    "targetAudience": "Bass enthusiasts and headbangers.",
+    "festivalContext": "Prime-time slot for an intense bass encounter."
+  },
+  "Boris Brejcha": {
+    "hyped": 90,
+    "reputation": 85,
+    "vibe": "High-tech minimal sounds that captivate and mesmerize.",
+    "targetAudience": "Techno and minimal fans.",
+    "festivalContext": "Night set for an immersive techno journey."
+  },
+  "Ray Volpe B2B Sullivan King": {
+    "hyped": 95,
+    "reputation": 80,
+    "vibe": "Insane bass drops and metal-infused energy.",
+    "targetAudience": "Headbangers and metal EDM lovers.",
+    "festivalContext": "Late-night set for headbanging madness."
+  },
+  "Crankdat B2B Wooli": {
+    "hyped": 92,
+    "reputation": 78,
+    "vibe": "Explosive dubstep and heavy bass that shake the ground.",
+    "targetAudience": "Dubstep and heavy bass fans.",
+    "festivalContext": "Catch them at night for massive bass drops."
+  },
+  "Bassett B2B Christopher James": {
+    "hyped": 70,
+    "reputation": 50,
+    "vibe": "Dynamic blend of house and progressive beats.",
+    "targetAudience": "House and progressive fans.",
+    "festivalContext": "Midday set for a fresh musical exploration."
+  },
+  "Scenarios": {
+    "hyped": 55,
+    "reputation": 35,
+    "vibe": "Eclectic mix of ambient and experimental sounds.",
+    "targetAudience": "Experimental music enthusiasts.",
+    "festivalContext": "Morning set for a unique auditory experience."
+  },
+  "Argy B2B Mind Against": {
+    "hyped": 85,
+    "reputation": 80,
+    "vibe": "Deep, emotive techno journey that transports you beyond.",
+    "targetAudience": "Deep techno and emotive sound lovers.",
+    "festivalContext": "Evening set for a deep, immersive experience."
+  },
+  "Adriatique": {
+    "hyped": 80,
+    "reputation": 85,
+    "vibe": "Sophisticated, melodic techno that evolves and enchants.",
+    "targetAudience": "Melodic techno enthusiasts.",
+    "festivalContext": "Night-time set for a mesmerizing musical journey."
+  },
+  "Amelie Lens B2B Sara Landry": {
+    "hyped": 92,
+    "reputation": 88,
+    "vibe": "Pounding techno with fierce energy and relentless beats.",
+    "targetAudience": "Techno purists and night owls.",
+    "festivalContext": "Late-night set for a fierce techno fix."
+  },
+  "M.O.N.R.O.E.": {
+    "hyped": 65,
+    "reputation": 45,
+    "vibe": "Smooth grooves with a touch of Miami flair.",
+    "targetAudience": "House and groove seekers.",
+    "festivalContext": "Afternoon set for laid-back, groovy vibes."
+  },
+  "Plastik Funk": {
+    "hyped": 75,
+    "reputation": 65,
+    "vibe": "Feel-good house beats that keep the crowd smiling.",
+    "targetAudience": "House music lovers and party goers.",
+    "festivalContext": "Early evening set to get the crowd moving."
+  },
+  "Black Fancy": {
+    "hyped": 60,
+    "reputation": 40,
+    "vibe": "Ambient electronic with a dark, mysterious edge.",
+    "targetAudience": "Dark ambient fans.",
+    "festivalContext": "Catch them in the afternoon for an atmospheric touch."
+  },
+  "Malone": {
+    "hyped": 68,
+    "reputation": 55,
+    "vibe": "Deep house vibes with a soulful twist.",
+    "targetAudience": "Deep house and soulful groove fans.",
+    "festivalContext": "Late afternoon set for deep, soulful vibes."
+  },
+  "Rossi.": {
+    "hyped": 72,
+    "reputation": 60,
+    "vibe": "Minimal house grooves with a fresh, modern twist.",
+    "targetAudience": "Minimal house enthusiasts.",
+    "festivalContext": "Midday set for a dance floor warm-up."
+  },
+  "Dennis Cruz B2B Seth Troxler": {
+    "hyped": 85,
+    "reputation": 90,
+    "vibe": "Playful house and techno mix with underground flair.",
+    "targetAudience": "House and techno connoisseurs.",
+    "festivalContext": "Evening set for a sophisticated dance journey."
+  },
+  "The Martinez Brothers": {
+    "hyped": 90,
+    "reputation": 95,
+    "vibe": "Infectious house beats that keep the party alive.",
+    "targetAudience": "House music lovers and party goers.",
+    "festivalContext": "Prime-time set for an unforgettable party experience."
+  },
+  "EERA": {
+    "hyped": 55,
+    "reputation": 35,
+    "vibe": "Dreamy electronic soundscapes with a haunting vocal touch.",
+    "targetAudience": "Dreamy electronic and ambient fans.",
+    "festivalContext": "Morning set for a serene start to the day."
+  },
+  "BOIISH": {
+    "hyped": 70,
+    "reputation": 50,
+    "vibe": "Groovy house beats with an infectious rhythm.",
+    "targetAudience": "House music enthusiasts.",
+    "festivalContext": "Afternoon set to get the crowd grooving."
+  },
+  "PARISI": {
+    "hyped": 65,
+    "reputation": 55,
+    "vibe": "Eclectic electronic sounds with a fresh twist.",
+    "targetAudience": "Fans of eclectic and innovative sounds.",
+    "festivalContext": "Mid-afternoon set for a fresh musical exploration."
+  },
+  "Louis The Child": {
+    "hyped": 85,
+    "reputation": 80,
+    "vibe": "Feel-good future bass with infectious positivity.",
+    "targetAudience": "Future bass lovers and upbeat music fans.",
+    "festivalContext": "Evening set for uplifting, feel-good vibes."
+  },
+  "Deorro B2B Mike Posner B2B Morten": {
+    "hyped": 90,
+    "reputation": 85,
+    "vibe": "High-energy EDM with anthemic hits and diverse flair.",
+    "targetAudience": "EDM lovers and mainstage fans.",
+    "festivalContext": "Prime-time set for an epic, high-energy experience."
+  },
+  "ZHU": {
+    "hyped": 88,
+    "reputation": 90,
+    "vibe": "Mysterious, captivating beats with a sensual edge.",
+    "targetAudience": "Deep house and electronic fans.",
+    "festivalContext": "Night-time set for an enigmatic musical experience."
+  },
+  "Frost Children": {
+    "hyped": 60,
+    "reputation": 45,
+    "vibe": "Playful electronic beats with an avant-garde twist.",
+    "targetAudience": "Fans of avant-garde and playful sounds.",
+    "festivalContext": "Midday set for a whimsical musical journey."
+  },
+  "X Club.": {
+    "hyped": 75,
+    "reputation": 65,
+    "vibe": "Energetic techno with a pulsating rhythm.",
+    "targetAudience": "Techno enthusiasts and energy-seekers.",
+    "festivalContext": "Evening set to keep the energy flowing."
+  },
+  "Fcukers": {
+    "hyped": 70,
+    "reputation": 50,
+    "vibe": "Raw, energetic beats with a rebellious edge.",
+    "targetAudience": "Underground and alternative music fans.",
+    "festivalContext": "Early evening set for raw, energetic vibes."
+  },
+  "MCR-T": {
+    "hyped": 65,
+    "reputation": 40,
+    "vibe": "Experimental electronic with a touch of punk energy.",
+    "targetAudience": "Experimental and punk electronic fans.",
+    "festivalContext": "Afternoon set for a unique auditory adventure."
+  },
+  "DJ Gigola": {
+    "hyped": 68,
+    "reputation": 55,
+    "vibe": "Eclectic beats with a playful, underground vibe.",
+    "targetAudience": "Underground and eclectic music fans.",
+    "festivalContext": "Mid-afternoon set to explore playful beats."
+  }
+}
