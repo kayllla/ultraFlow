@@ -64,7 +64,7 @@ export default function DJCard({
   const isSelected = status === "kept";
   const { activePlaybackId } = useAudioPlayer();
   const isPlaying = activePlaybackId === rec.set.id;
-  const img = rec.artist.imageUrl;
+  const img = rec.artist.imageUrl ?? rec.previewTrack?.coverUrl;
 
   return (
     <div

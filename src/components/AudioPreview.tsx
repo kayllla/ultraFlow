@@ -158,7 +158,7 @@ export default function AudioPreview({
         }}
         disabled={isResolving}
         className="shrink-0 relative group/play cursor-pointer active:scale-95 disabled:opacity-60"
-        style={{ width: 40, height: 40 }}
+        style={{ width: 56, height: 56 }}
         title={isPlaying ? "Pause" : "Play preview"}
       >
         {/* Cover art or placeholder */}
@@ -166,9 +166,9 @@ export default function AudioPreview({
           <img
             src={coverUrl}
             alt="cover"
-            width={40}
-            height={40}
-            className="w-10 h-10 object-cover"
+            width={56}
+            height={56}
+            className="w-14 h-14 object-cover"
             style={{
               outline: isPlaying
                 ? "1px solid rgba(57,255,20,0.6)"
@@ -179,7 +179,7 @@ export default function AudioPreview({
           />
         ) : (
           <div
-            className="w-10 h-10 flex items-center justify-center"
+            className="w-14 h-14 flex items-center justify-center"
             style={{
               background: isPlaying
                 ? "rgba(57,255,20,0.08)"
