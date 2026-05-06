@@ -1,4 +1,5 @@
 import SpotifyConnect from "@/components/SpotifyConnect";
+import FestivalSelector from "@/components/FestivalSelector";
 
 export default function LandingPage() {
   return (
@@ -12,7 +13,7 @@ export default function LandingPage() {
         }}
       />
 
-      <div className="relative z-10 flex flex-col items-center text-center max-w-lg">
+      <div className="relative z-10 flex flex-col items-center text-center max-w-lg w-full">
         {/* Logo mark */}
         <div className="mb-8 animate-float">
           <div
@@ -32,16 +33,16 @@ export default function LandingPage() {
                 textShadow: "0 0 12px rgba(57,255,20,0.6)",
               }}
             >
-              U
+              F
             </span>
           </div>
         </div>
 
         <h1 className="font-display text-4xl md:text-5xl font-black uppercase tracking-[0.12em] leading-none">
-          <span className="text-chrome-shimmer">UltraFlow</span>
+          <span className="text-chrome-shimmer">FestFlow</span>
         </h1>
 
-        {/* Acid green underline */}
+        {/* Accent underline */}
         <div
           className="mt-3 h-[2px] w-40 mx-auto animate-led-pulse"
           style={{
@@ -50,32 +51,37 @@ export default function LandingPage() {
           }}
         />
 
-        <p className="mt-6 font-display text-[11px] uppercase tracking-widest leading-relaxed max-w-xs"
-          style={{ color: "rgba(184,184,184,0.4)" }}>
-          Turn your Spotify taste into a personalized
+        <p
+          className="mt-4 font-display text-[11px] uppercase tracking-widest leading-relaxed max-w-xs"
+          style={{ color: "rgba(184,184,184,0.4)" }}
+        >
+          Your Spotify taste · personalized set picks
           <br />
           <span style={{ color: "rgba(184,184,184,0.2)" }}>
-            Ultra Miami route · Discover · Preview · Flow
+            Discover · Preview · Plan your route
           </span>
         </p>
 
-        <div className="mt-10 flex flex-col items-center gap-6">
+        {/* Festival selection */}
+        <div className="mt-10 w-full">
+          <FestivalSelector />
+        </div>
+
+        {/* Spotify connect */}
+        <div className="mt-8 flex flex-col items-center gap-4 w-full">
           <SpotifyConnect />
         </div>
 
-        <div className="mt-16 flex items-center gap-6 font-display text-[10px] uppercase tracking-[0.2em]"
-          style={{ color: "rgba(184,184,184,0.2)" }}>
+        <div
+          className="mt-10 flex items-center gap-6 font-display text-[10px] uppercase tracking-[0.2em]"
+          style={{ color: "rgba(184,184,184,0.2)" }}
+        >
           <span>Day 1</span>
           <div className="w-1 h-1" style={{ background: "rgba(57,255,20,0.4)" }} />
           <span>Day 2</span>
           <div className="w-1 h-1" style={{ background: "rgba(57,255,20,0.4)" }} />
           <span>Day 3</span>
         </div>
-
-        <p className="mt-4 font-display text-[9px] uppercase tracking-widest"
-          style={{ color: "rgba(184,184,184,0.15)" }}>
-          Ultra Miami 2025 · March 28–30 · Bayfront Park
-        </p>
       </div>
     </main>
   );

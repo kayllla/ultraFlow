@@ -2,6 +2,7 @@
 
 import { useRef, useState, useEffect, useCallback, useMemo } from "react";
 import { usePlan } from "@/context/PlanContext";
+import { useFestival } from "@/context/FestivalContext";
 import DirectPathOverlay from "./DirectPathOverlay";
 import { walkMinutes } from "@/lib/route-engine";
 import {
@@ -29,6 +30,7 @@ export default function FestivalMap({
     setStageOverrides,
     resetStageOverrides,
   } = usePlan();
+  const { festival } = useFestival();
 
   const startStageId = startStageByDay[currentDay];
   const startStage = startStageId ? mergedStageMap[startStageId] ?? null : null;
@@ -131,12 +133,12 @@ export default function FestivalMap({
     try {
       el.setPointerCapture(e.pointerId);
     } catch {
-      /* Safari 部分版本无 setPointerCapture 时仍依赖 window 监听 */
+      /* Safari fallback: relies on window listener when setPointerCapture is unavailable */
     }
     setDragging({ id: stage.id, x: stage.x, y: stage.y });
   };
 
-  /** 手机端：capture + window 跟踪，避免滚动/系统手势抢走 pointer */
+  /** Mobile: track via window to prevent scroll/gesture from stealing the pointer */
   useEffect(() => {
     if (!dragging || !calibrateMode) return;
     const stageId = dragging.id;
@@ -216,16 +218,16 @@ export default function FestivalMap({
                   : undefined,
               }}
             />
-            场地地图
+            Venue Map
             {startStageId && (
-              <span style={{ color: "#39FF14" }}>· 起点已设</span>
+              <span style={{ color: "#39FF14" }}>· Origin set</span>
             )}
           </span>
           <span
             className="text-[9px] tracking-widest shrink-0"
             style={{ color: "rgba(184,184,184,0.35)" }}
           >
-            {mapOpen ? "收起" : "展开"}
+            {mapOpen ? "Hide" : "Show"}
           </span>
         </button>
 
@@ -245,7 +247,7 @@ export default function FestivalMap({
                 color: calibrateMode ? "#39FF14" : "rgba(184,184,184,0.45)",
               }}
             >
-              {calibrateMode ? "完成校准" : "校准点位"}
+              {calibrateMode ? "Done" : "Calibrate"}
             </button>
             <button
               type="button"
@@ -257,7 +259,7 @@ export default function FestivalMap({
                 color: "rgba(184,184,184,0.35)",
               }}
             >
-              重置默认
+              Reset
             </button>
           </>
         )}
@@ -274,11 +276,11 @@ export default function FestivalMap({
             ref={containerRef}
           >
             <img
-              src="/map.jpg"
-              alt="Ultra Miami 2025 Map"
+              src={festival.mapSrc}
+              alt={`${festival.name} Map`}
               className="w-full h-auto block select-none"
               style={{
-                filter: "grayscale(1) contrast(1.2) brightness(0.92)",
+                filter: "grayscale(0.3) contrast(1.1) brightness(0.88)",
               }}
               onLoad={() => {
                 if (containerRef.current) {
@@ -384,7 +386,7 @@ export default function FestivalMap({
                       border: "1px solid rgba(57,255,20,0.25)",
                     }}
                   >
-                    已在该舞台 · Walk 0 min
+                    Already here · Walk 0 min
                   </span>
                 </div>
               )}
@@ -395,10 +397,10 @@ export default function FestivalMap({
               <div className="pointer-events-none absolute inset-0 flex items-center justify-center bg-black/20 backdrop-blur-[1px]">
                 <div className="text-center px-4">
                   <p className="text-white/55 text-sm font-display uppercase tracking-wider">
-                    点选舞台作为「我在这里」
+                    Tap a stage to set your location
                   </p>
                   <p className="text-white/25 text-[11px] mt-1">
-                    选中 DJ 后显示直线步行路径
+                    Select a set to see walking path
                   </p>
                 </div>
               </div>

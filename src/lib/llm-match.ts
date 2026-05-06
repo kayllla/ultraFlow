@@ -231,14 +231,14 @@ Final score = sum (0-100). Return valid JSON only.`,
 ## Day ${day} Lineup
 ${djList}
 
-Return: { "results": { "<DJ name>": { "score": <0-100>, "reason": "<max 12 words, Chinese>", "tags": ["<tag1>", "<tag2>"] } } }
-- reason: WHY this DJ fits this user, in 简体中文, vivid and personal
+Return: { "results": { "<DJ name>": { "score": <0-100>, "reason": "<max 12 words>", "tags": ["<tag1>", "<tag2>"] } } }
+- reason: WHY this DJ fits this user, vivid and personal
 - tags: 2-3 from [melodic vibes, high energy, dark groove, perfect match, hidden gem, crowd favorite, late-night fit, bass heavy, trance, techno, chill vibes, underground, festival anthem]
 - Be honest: differentiate clearly. Not every DJ is 70+.
 - Direct artist match → taste_match near 40.
 - If a DJ strongly matches the user's top tracks / genre profile, score high; if far from their listening taste, score low.
 - Prefer DJs aligned with electronic/techno/house listening over ballad-only overlap.
-- Use hyped/reputation/vibe/context fields in the lineup for "往届/现场口碑" when scores are close.
+- Use hyped/reputation/vibe/context fields in the lineup for reputation/live energy when scores are close.
 - Include ALL DJs.`,
       },
     ],

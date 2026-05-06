@@ -17,6 +17,7 @@ import {
   getMergedStageMap,
   type StagePositionOverride,
 } from "@/lib/stage-layout";
+import { useFestival } from "@/context/FestivalContext";
 
 interface PlanState {
   currentDay: Day;
@@ -51,7 +52,7 @@ interface PlanContextValue extends PlanState {
 
 const PlanContext = createContext<PlanContextValue | null>(null);
 
-const STORAGE_KEY = "ultraflow_plan";
+const STORAGE_KEY_PREFIX = "ultraflow_plan";
 
 interface StoredPlan {
   currentDay?: Day;
@@ -59,10 +60,14 @@ interface StoredPlan {
   startStageByDay?: Record<Day, string | null>;
 }
 
-function loadFromStorage(): StoredPlan | null {
+function getStorageKey(festivalId: string): string {
+  return `${STORAGE_KEY_PREFIX}_${festivalId}`;
+}
+
+function loadFromStorage(festivalId: string): StoredPlan | null {
   if (typeof window === "undefined") return null;
   try {
-    const raw = localStorage.getItem(STORAGE_KEY);
+    const raw = localStorage.getItem(getStorageKey(festivalId));
     if (!raw) return null;
     return JSON.parse(raw) as StoredPlan;
   } catch {
@@ -71,15 +76,17 @@ function loadFromStorage(): StoredPlan | null {
 }
 
 function saveToStorage(
-  state: Pick<PlanState, "currentDay" | "dayPlan" | "startStageByDay">
+  state: Pick<PlanState, "currentDay" | "dayPlan" | "startStageByDay">,
+  festivalId: string
 ) {
   if (typeof window === "undefined") return;
   try {
-    localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
+    localStorage.setItem(getStorageKey(festivalId), JSON.stringify(state));
   } catch {}
 }
 
 export function PlanProvider({ children }: { children: React.ReactNode }) {
+  const { festivalId, festival } = useFestival();
   const [currentDay, setCurrentDay] = useState<Day>(1);
   const [recommendations, setRecommendationsState] = useState<
     Record<Day, DJRecommendation[]>
@@ -95,16 +102,29 @@ export function PlanProvider({ children }: { children: React.ReactNode }) {
   const [isSpotifyConnected, setSpotifyConnected] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
   const [hydrated, setHydrated] = useState(false);
+  const [prevFestivalId, setPrevFestivalId] = useState(festivalId);
 
   useEffect(() => {
-    const stored = loadFromStorage();
+    const stored = loadFromStorage(festivalId);
     if (stored?.currentDay) setCurrentDay(stored.currentDay);
     if (stored?.startStageByDay) {
       setStartStageByDay((prev) => ({ ...prev, ...stored.startStageByDay }));
     }
-    setStageOverridesState(loadStageOverrides());
+    setStageOverridesState(loadStageOverrides(festivalId));
     setHydrated(true);
   }, []);
+
+  // When festival changes, reload data for the new festival
+  useEffect(() => {
+    if (!hydrated || festivalId === prevFestivalId) return;
+    setPrevFestivalId(festivalId);
+    const stored = loadFromStorage(festivalId);
+    setCurrentDay(stored?.currentDay ?? 1);
+    setDayPlan({ 1: {}, 2: {}, 3: {} });
+    setStartStageByDay(stored?.startStageByDay ?? { 1: null, 2: null, 3: null });
+    setStageOverridesState(loadStageOverrides(festivalId));
+    setRecommendationsState({ 1: [], 2: [], 3: [] });
+  }, [festivalId, hydrated, prevFestivalId]);
 
   useEffect(() => {
     if (!hydrated) return;
@@ -113,13 +133,13 @@ export function PlanProvider({ children }: { children: React.ReactNode }) {
       const next: Record<Day, DJRecommendation[]> = { ...prev };
       for (const d of [1, 2, 3] as const) {
         if ((next[d]?.length ?? 0) === 0) {
-          next[d] = generateDemoRecommendations(d);
+          next[d] = generateDemoRecommendations(d, festivalId);
           changed = true;
         }
       }
       return changed ? next : prev;
     });
-  }, [hydrated]);
+  }, [hydrated, festivalId]);
 
   useEffect(() => {
     if (!hydrated) return;
@@ -142,16 +162,21 @@ export function PlanProvider({ children }: { children: React.ReactNode }) {
 
   useEffect(() => {
     if (!hydrated) return;
-    saveToStorage({ currentDay, dayPlan, startStageByDay });
-  }, [currentDay, dayPlan, startStageByDay, hydrated]);
+    saveToStorage({ currentDay, dayPlan, startStageByDay }, festivalId);
+  }, [currentDay, dayPlan, startStageByDay, hydrated, festivalId]);
+
+  const festivalStages = useMemo(
+    () => festival.getStages().stages,
+    [festival]
+  );
 
   const mergedStages = useMemo(
-    () => getMergedStages(stageOverrides),
-    [stageOverrides]
+    () => getMergedStages(stageOverrides, festivalStages),
+    [stageOverrides, festivalStages]
   );
   const mergedStageMap = useMemo(
-    () => getMergedStageMap(stageOverrides),
-    [stageOverrides]
+    () => getMergedStageMap(stageOverrides, festivalStages),
+    [stageOverrides, festivalStages]
   );
 
   const setRecommendations = useCallback(
@@ -227,17 +252,17 @@ export function PlanProvider({ children }: { children: React.ReactNode }) {
     ) => {
       setStageOverridesState((prev) => {
         const resolved = typeof next === "function" ? next(prev) : next;
-        saveStageOverrides(resolved);
+        saveStageOverrides(resolved, festivalId);
         return resolved;
       });
     },
-    []
+    [festivalId]
   );
 
   const resetStageOverrides = useCallback(() => {
     setStageOverridesState({});
-    saveStageOverrides({});
-  }, []);
+    saveStageOverrides({}, festivalId);
+  }, [festivalId]);
 
   return (
     <PlanContext.Provider

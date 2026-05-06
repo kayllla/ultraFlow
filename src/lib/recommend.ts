@@ -1,7 +1,8 @@
 import { Artist, DJRecommendation, SetSlot, Day, UserPreferences, SpotifyArtist } from "@/types";
-import { artistMap, getSetsForDay } from "@/data/lineup";
-import { stageMap } from "@/data/stages";
+import { artistMap as defaultArtistMap, getSetsForDay as defaultGetSetsForDay } from "@/data/lineup";
+import { stageMap as defaultStageMap } from "@/data/stages";
 import { mergeDjMediaIntoRecommendations } from "@/lib/dj-media-merge";
+import { getFestivalInfo } from "@/data/festival-registry";
 
 export {
   buildGenreProfile,
@@ -177,8 +178,22 @@ function generateTags(artist: Artist, score: number, set: SetSlot): string[] {
 
 export function generateRecommendations(
   day: Day,
-  prefs: UserPreferences
+  prefs: UserPreferences,
+  festivalId?: string
 ): DJRecommendation[] {
+  let artistMap = defaultArtistMap;
+  let getSetsForDay = defaultGetSetsForDay;
+  let stageMap = defaultStageMap;
+
+  if (festivalId) {
+    const info = getFestivalInfo(festivalId);
+    const lineupData = info.getLineup();
+    const stagesData = info.getStages();
+    artistMap = lineupData.artistMap;
+    getSetsForDay = lineupData.getSetsForDay;
+    stageMap = stagesData.stageMap;
+  }
+
   const daySets = getSetsForDay(day);
   const recommendations: DJRecommendation[] = [];
 
@@ -229,7 +244,20 @@ export function generateRecommendations(
   return mergeDjMediaIntoRecommendations(recommendations);
 }
 
-export function generateDemoRecommendations(day: Day): DJRecommendation[] {
+export function generateDemoRecommendations(day: Day, festivalId?: string): DJRecommendation[] {
+  let artistMap = defaultArtistMap;
+  let getSetsForDay = defaultGetSetsForDay;
+  let stageMap = defaultStageMap;
+
+  if (festivalId) {
+    const info = getFestivalInfo(festivalId);
+    const lineupData = info.getLineup();
+    const stagesData = info.getStages();
+    artistMap = lineupData.artistMap;
+    getSetsForDay = lineupData.getSetsForDay;
+    stageMap = stagesData.stageMap;
+  }
+
   const daySets = getSetsForDay(day);
   const recommendations: DJRecommendation[] = [];
 

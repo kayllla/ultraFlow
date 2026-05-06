@@ -5,30 +5,41 @@ import DaySelector from "@/components/DaySelector";
 import DJList from "@/components/DJList";
 import FestivalMap from "@/components/FestivalMap";
 import DayTimeline from "@/components/DayTimeline";
+import FestivalSelector from "@/components/FestivalSelector";
 import { usePlan } from "@/context/PlanContext";
+import { useFestival } from "@/context/FestivalContext";
 import type { Day, DJRecommendation } from "@/types";
 import { getNowFestivalMinutes } from "@/lib/now-recommend";
 
 function RecommendationSync() {
   const { setRecommendations, setSpotifyConnected, setIsLoading } = usePlan();
-  const fetchedDays = useRef(new Set<Day>());
+  const { festivalId } = useFestival();
+  const fetchedRef = useRef<{ festivalId: string; days: Set<Day> }>({
+    festivalId: "",
+    days: new Set(),
+  });
 
   useEffect(() => {
+    // When festival changes, reset fetched days
+    if (fetchedRef.current.festivalId !== festivalId) {
+      fetchedRef.current = { festivalId, days: new Set() };
+    }
+
     const daysToFetch = ([1, 2, 3] as const).filter(
-      (d) => !fetchedDays.current.has(d)
+      (d) => !fetchedRef.current.days.has(d)
     );
     if (daysToFetch.length === 0) return;
 
     let cancelled = false;
 
     for (const d of daysToFetch) {
-      fetchedDays.current.add(d);
+      fetchedRef.current.days.add(d);
     }
     setIsLoading(true);
 
     const fetchOne = async (day: Day) => {
       try {
-        const u = await fetch(`/api/recommend?day=${day}`, {
+        const u = await fetch(`/api/recommend?day=${day}&festival=${festivalId}`, {
           credentials: "include",
         });
         if (u.ok) {
@@ -42,7 +53,7 @@ function RecommendationSync() {
       } catch {}
 
       try {
-        const d = await fetch(`/api/recommend-demo?day=${day}`);
+        const d = await fetch(`/api/recommend-demo?day=${day}&festival=${festivalId}`);
         if (d.ok) {
           const data = await d.json();
           if (!cancelled) {
@@ -59,7 +70,7 @@ function RecommendationSync() {
     return () => {
       cancelled = true;
     };
-  }, [setRecommendations, setSpotifyConnected, setIsLoading]);
+  }, [festivalId, setRecommendations, setSpotifyConnected, setIsLoading]);
 
   return null;
 }
@@ -72,8 +83,10 @@ export default function DashboardPage() {
     mergedStages,
     toggleArtist,
   } = usePlan();
+  const { festival } = useFestival();
   const [highlightStageId, setHighlightStageId] = useState<string | null>(null);
   const [mobileTab, setMobileTab] = useState<"schedule" | "venue">("schedule");
+  const [showFestivalPicker, setShowFestivalPicker] = useState(false);
 
   const kept = getKeptRecommendations();
   const effectiveHighlight =
@@ -103,15 +116,44 @@ export default function DashboardPage() {
                   className="w-8 h-8 sm:w-7 sm:h-7 flex items-center justify-center cut-corner-sm"
                   style={{
                     background: "rgba(14,14,14,0.9)",
-                    border: "1px solid rgba(57,255,20,0.35)",
+                    border: `1px solid ${festival.accentColor}59`,
                   }}
                 >
-                  <div className="w-1.5 h-1.5 rounded-full bg-[#39FF14] animate-led-pulse" />
+                  <div
+                    className="w-1.5 h-1.5 rounded-full animate-led-pulse"
+                    style={{ backgroundColor: festival.accentColor }}
+                  />
                 </div>
-                <h1 className="font-display text-base sm:text-sm font-black uppercase tracking-[0.12em] sm:tracking-[0.15em] truncate">
-                  <span className="text-chrome-shimmer">UltraFlow</span>
-                </h1>
+                <button
+                  type="button"
+                  onClick={() => setShowFestivalPicker((v) => !v)}
+                  className="flex flex-col items-start cursor-pointer"
+                >
+                  <h1 className="font-display text-base sm:text-sm font-black uppercase tracking-[0.12em] sm:tracking-[0.15em] truncate">
+                    <span className="text-chrome-shimmer">FestFlow</span>
+                  </h1>
+                  <span
+                    className="font-display text-[8px] uppercase tracking-widest hidden sm:block"
+                    style={{ color: festival.accentColor, opacity: 0.8 }}
+                  >
+                    {festival.shortName} ▾
+                  </span>
+                </button>
               </div>
+
+              {/* Festival picker dropdown */}
+              {showFestivalPicker && (
+                <div
+                  className="absolute top-full left-0 right-0 z-50 p-4"
+                  style={{
+                    background: "rgba(8,8,8,0.98)",
+                    borderBottom: "1px solid rgba(184,184,184,0.12)",
+                    backdropFilter: "blur(20px)",
+                  }}
+                >
+                  <FestivalSelector onSelect={() => setShowFestivalPicker(false)} />
+                </div>
+              )}
 
               <DaySelector />
             </div>
@@ -146,7 +188,7 @@ export default function DashboardPage() {
 
       <div className="max-w-7xl mx-auto px-2 sm:px-4 py-3 sm:py-4 pb-[max(1rem,env(safe-area-inset-bottom))]">
         <div className="lg:grid lg:grid-cols-[minmax(0,1.2fr)_minmax(320px,0.85fr)] lg:gap-6 lg:items-start">
-          {/* 左侧：瘦长时间表（最大区域）；手机占满宽 + 接近全屏高 */}
+          {/* Left: timeline */}
           <section
             className={`lg:min-h-0 flex flex-col mb-0 max-lg:flex-1 max-lg:min-h-0 ${
               mobileTab !== "schedule" ? "hidden lg:flex" : ""
@@ -160,7 +202,7 @@ export default function DashboardPage() {
             />
           </section>
 
-          {/* 右侧：地图在上，推荐在下 */}
+          {/* Right: map + picks */}
           <section
             className={`flex flex-col gap-3 sm:gap-4 min-w-0 ${
               mobileTab !== "venue" ? "hidden lg:flex" : ""

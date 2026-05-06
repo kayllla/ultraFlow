@@ -123,8 +123,8 @@ export default function DJList({
             style={{ color: "rgba(184,184,184,0.2)" }}
           >
             {startStage
-              ? `From ${startStage.name} · 含步行与 ≥20min 观演`
-              : "未设起点：按时间可听满 20min 的场次（无步行）"}
+              ? `From ${startStage.name} · incl. walk & ≥20min sets`
+              : "No origin set — shows sets with ≥20min remaining"}
           </span>
         </div>
         <span

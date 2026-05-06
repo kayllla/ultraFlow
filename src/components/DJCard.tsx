@@ -202,7 +202,7 @@ export default function DJCard({
                       border: "1px solid rgba(57,255,20,0.25)",
                       background: "rgba(57,255,20,0.06)",
                     }}
-                    title="推荐匹配度（列表已按此从高到低排序）"
+                    title="Match score (sorted high to low)"
                   >
                     {Math.round(rec.score)}%
                   </span>

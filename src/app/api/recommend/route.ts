@@ -37,6 +37,7 @@ export async function GET(request: NextRequest) {
 
   const { searchParams } = new URL(request.url);
   const day = parseInt(searchParams.get("day") || "1") as Day;
+  const festivalId = searchParams.get("festival") || undefined;
 
   if (![1, 2, 3].includes(day)) {
     return NextResponse.json({ error: "Invalid day" }, { status: 400 });
@@ -170,10 +171,10 @@ export async function GET(request: NextRequest) {
         recommendations = await llmMatchRecommendations(day, prefs);
       } catch (llmErr) {
         console.warn("LLM match failed, falling back to rule-based:", llmErr);
-        recommendations = generateRecommendations(day, prefs);
+        recommendations = generateRecommendations(day, prefs, festivalId);
       }
     } else {
-      recommendations = generateRecommendations(day, prefs);
+      recommendations = generateRecommendations(day, prefs, festivalId);
     }
 
     try {

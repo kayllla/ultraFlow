@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Orbitron, Space_Grotesk } from "next/font/google";
 import "./globals.css";
+import { FestivalProvider } from "@/context/FestivalContext";
 import { PlanProvider } from "@/context/PlanContext";
 import { AudioPlayerProvider } from "@/context/AudioPlayerContext";
 import WhiplashBackdrop from "@/components/WhiplashBackdrop";
@@ -31,12 +32,14 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${orbitron.variable} ${spaceGrotesk.variable}`}>
       <body className="font-body antialiased">
-        <PlanProvider>
-          <AudioPlayerProvider>
-            <WhiplashBackdrop />
-            {children}
-          </AudioPlayerProvider>
-        </PlanProvider>
+        <FestivalProvider>
+          <PlanProvider>
+            <AudioPlayerProvider>
+              <WhiplashBackdrop />
+              {children}
+            </AudioPlayerProvider>
+          </PlanProvider>
+        </FestivalProvider>
       </body>
     </html>
   );

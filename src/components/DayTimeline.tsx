@@ -13,6 +13,7 @@ import { useIsMobile } from "@/hooks/useIsMobile";
 import { formatArrivalClock, getNowFestivalMinutes } from "@/lib/now-recommend";
 import { isTimelinePreviewMode } from "@/lib/festival-dates";
 import { useAudioPlayer } from "@/context/AudioPlayerContext";
+import { useFestival } from "@/context/FestivalContext";
 import { startGlobalPreviewPlayback } from "@/lib/audio-preview-player";
 
 interface DayTimelineProps {
@@ -60,10 +61,14 @@ export default function DayTimeline({
   const minBlockPx = isMobile ? MOBILE_MIN_BLOCK_PX : 36;
 
   const { setActivePlaybackId, activePlaybackId } = useAudioPlayer();
+  const { festival } = useFestival();
   const [loadingId, setLoadingId] = useState<string | null>(null);
   const [liveNowMinutes, setLiveNowMinutes] = useState(nowMinutes);
 
-  const previewMode = isTimelinePreviewMode();
+  const previewMode = isTimelinePreviewMode({
+    festStart: festival.festStart,
+    festEnd: festival.festEnd,
+  });
 
   useEffect(() => {
     setLiveNowMinutes(nowMinutes);
@@ -135,7 +140,7 @@ export default function DayTimeline({
       <div
         className="flex-1 min-h-[min(280px,42dvh)] max-lg:min-h-[min(320px,48dvh)] lg:min-h-[calc(100vh-148px)] max-h-[min(720px,85dvh)] lg:max-h-none overflow-auto overscroll-x-contain touch-pan-x touch-pan-y [-webkit-overflow-scrolling:touch]"
       >
-        {/* 顶行：舞台名 */}
+        {/* Header row: stage names */}
         <div
           className="flex sticky top-0 z-20 border-b border-[rgba(184,184,184,0.1)]"
           style={{ background: "rgba(10,10,10,0.96)" }}
@@ -162,7 +167,7 @@ export default function DayTimeline({
         </div>
 
         <div className="flex min-w-max">
-          {/* 左侧时间刻度 */}
+          {/* Left: time axis */}
           <div
             className="shrink-0 relative border-r border-[rgba(184,184,184,0.1)]"
             style={{ width: labelW, height: grid.contentHeightPx }}
@@ -181,7 +186,7 @@ export default function DayTimeline({
             ))}
           </div>
 
-          {/* 舞台列 + 演出块 */}
+          {/* Stage columns + set blocks */}
           <div
             className="relative shrink-0"
             style={{ width: gridW, height: grid.contentHeightPx }}
