@@ -16,12 +16,19 @@ const SPOTIFY_TOKEN_URL = "https://accounts.spotify.com/api/token";
 const SPOTIFY_API = "https://api.spotify.com/v1";
 const ITUNES_API = "https://itunes.apple.com/search";
 
-const lineupSrc = readFileSync(join(__dirname, "../src/data/lineup.ts"), "utf-8");
+const lineupFiles = [
+  join(__dirname, "../src/data/lineup.ts"),
+  join(__dirname, "../src/data/festivals/edc-vegas-2026/lineup.ts"),
+];
 const artistRe = /\{\s*id:\s*"([^"]+)",\s*name:\s*"([^"]+)",\s*spotifyArtistId:\s*(null|"([^"]*)")/g;
 const allArtists = [];
-let m;
-while ((m = artistRe.exec(lineupSrc)) !== null) {
-  allArtists.push({ id: m[1], name: m[2], spotifyId: m[3] === "null" ? null : m[4] });
+for (const lineupPath of lineupFiles) {
+  if (!existsSync(lineupPath)) continue;
+  const src = readFileSync(lineupPath, "utf-8");
+  let m;
+  while ((m = artistRe.exec(src)) !== null) {
+    allArtists.push({ id: m[1], name: m[2], spotifyId: m[3] === "null" ? null : m[4] });
+  }
 }
 const seen = new Set();
 const uniqueArtists = allArtists.filter((a) => { if (seen.has(a.id)) return false; seen.add(a.id); return true; });

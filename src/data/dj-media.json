@@ -1222,5 +1222,1239 @@
       "spotifyUrl": "https://music.apple.com/us/album/siente-el-ritmo/1804944411?i=1804944412&uo=4",
       "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/3d/ba/79/3dba799c-9f3d-abb9-821d-18b3bdb99c2c/25UMGIM50190.rgb.jpg/300x300bb.jpg"
     }
+  },
+  "edc-laidback-luke-chuckie": {
+    "imageUrl": null,
+    "previewTrack": {
+      "name": "Turbulence (feat. Lil Jon) [Radio Edit]",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/e2/f8/25/e2f82576-5447-d43b-83ae-870989067bbb/mzaf_4726006384166588514.plus.aac.p.m4a",
+      "spotifyUrl": "https://music.apple.com/us/album/turbulence-feat-lil-jon-radio-edit/1603830216?i=1603830217&uo=4",
+      "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/64/cb/f3/64cbf3f8-9c82-4fff-3827-2d5793496089/0617465762154.png/300x300bb.jpg"
+    }
+  },
+  "edc-korolova": {
+    "imageUrl": null,
+    "previewTrack": {
+      "name": "Shining (feat. Ekko)",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/aa/31/61/aa3161fa-4969-2dc9-e738-675190b566f3/mzaf_9593443452034136394.plus.aac.p.m4a",
+      "spotifyUrl": "https://music.apple.com/us/album/shining-feat-ekko/1742085119?i=1742085120&uo=4",
+      "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a0/6f/04/a06f04d4-f66f-ba94-0c32-4f295ee303bd/24SYMIM11318.rgb.jpg/300x300bb.jpg"
+    }
+  },
+  "edc-argy": {
+    "imageUrl": null,
+    "previewTrack": {
+      "name": "Voices In My Head",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/7f/18/c1/7f18c15a-cc96-2764-a8f9-8bd097a75f0e/mzaf_8097431759501919994.plus.aac.p.m4a",
+      "spotifyUrl": "https://music.apple.com/us/album/voices-in-my-head/1814233142?i=1814233144&uo=4",
+      "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/58/e5/5d/58e55d84-6561-a981-d50d-a9e66a80bdd5/25UMGIM60463.rgb.jpg/300x300bb.jpg"
+    }
+  },
+  "edc-chris-lorenzo": {
+    "imageUrl": null,
+    "previewTrack": {
+      "name": "In This Bih'",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/e4/fd/7e/e4fd7e7c-e552-063a-5052-28821ebf2805/mzaf_9763707948512228587.plus.aac.p.m4a",
+      "spotifyUrl": "https://music.apple.com/us/album/in-this-bih/1875960818?i=1875960824&uo=4",
+      "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/8a/e2/23/8ae2235b-f508-788b-44e4-a2bfd1da4d59/7304.jpg/300x300bb.jpg"
+    }
+  },
+  "edc-sofi-tukker": {
+    "imageUrl": null,
+    "previewTrack": {
+      "name": "Purple Hat",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/c2/a0/cf/c2a0cf86-9a4f-dfed-866e-6756611dd825/mzaf_2577881044722890208.plus.aac.p.m4a",
+      "spotifyUrl": "https://music.apple.com/us/album/purple-hat/1763134837?i=1763135273&uo=4",
+      "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/fe/99/f5/fe99f55f-995b-9be8-7de6-b4f9f1590929/0617465006685_cover.jpg/300x300bb.jpg"
+    }
+  },
+  "edc-chainsmokers": {
+    "imageUrl": null,
+    "previewTrack": {
+      "name": "Closer (feat. Halsey)",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/bd/f9/b9/bdf9b9b2-eaa4-4461-6079-aaacc6df7316/mzaf_17327312786932455493.plus.aac.p.m4a",
+      "spotifyUrl": "https://music.apple.com/us/album/closer-feat-halsey/1170699510?i=1170699703&uo=4",
+      "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/41/f8/38/41f8380b-9b56-d5d4-31f7-a6411c0c9aaa/886446102054.jpg/300x300bb.jpg"
+    }
+  },
+  "edc-fisher": {
+    "imageUrl": null,
+    "previewTrack": {
+      "name": "Atmosphere",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f6/62/d4/f662d47a-22e6-83b0-b10b-f51bf8cdc751/mzaf_4019066659242546337.plus.aac.p.m4a",
+      "spotifyUrl": "https://music.apple.com/us/album/atmosphere/1754198963?i=1754198966&uo=4",
+      "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/b8/e9/cf/b8e9cfd8-9072-7221-4766-3937a4beefec/cover.jpg/300x300bb.jpg"
+    }
+  },
+  "edc-porter-robinson": {
+    "imageUrl": null,
+    "previewTrack": {
+      "name": "Shelter",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/92/87/4c/92874ce0-6452-acb3-8710-4fff232d6845/mzaf_2279466014324008913.plus.aac.p.m4a",
+      "spotifyUrl": "https://music.apple.com/us/album/shelter/1701889810?i=1701889813&uo=4",
+      "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/ff/56/9a/ff569a15-ff9f-307d-3d6c-1415d80bd8c1/653738346720_Cover.jpg/300x300bb.jpg"
+    }
+  },
+  "edc-charlotte-de-witte": {
+    "imageUrl": null,
+    "previewTrack": {
+      "name": "The Heads That Know (feat. Comma Dee)",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f5/0e/a3/f50ea3d8-9729-c204-fc05-d8f4f1e6d09b/mzaf_16984789667299805559.plus.aac.p.m4a",
+      "spotifyUrl": "https://music.apple.com/us/album/the-heads-that-know-feat-comma-dee/1838502513?i=1838502519&uo=4",
+      "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1c/98/87/1c9887c9-b854-8859-0e95-f318e5b8115d/199538752205.jpg/300x300bb.jpg"
+    }
+  },
+  "edc-1991": {
+    "imageUrl": null,
+    "previewTrack": {
+      "name": "1991",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/a3/95/09/a395094e-9007-904b-4108-9a2daeb35678/mzaf_3480037252278438381.plus.aac.p.m4a",
+      "spotifyUrl": "https://music.apple.com/us/album/1991/1832041687?i=1832041690&uo=4",
+      "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/0e/93/37/0e9337b6-ce09-8102-a7e2-c23cce4e09bd/859712441652_cover.jpg/300x300bb.jpg"
+    }
+  },
+  "edc-bou": {
+    "imageUrl": null,
+    "previewTrack": {
+      "name": "Baddadan (feat. IRah, Flowdan, Trigga & Takura)",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/bd/bd/ab/bdbdabe4-edc0-e6e3-caf4-78f49a3000cc/mzaf_5472373794141832670.plus.aac.p.m4a",
+      "spotifyUrl": "https://music.apple.com/us/album/baddadan-feat-irah-flowdan-trigga-takura/1698551194?i=1698551200&uo=4",
+      "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/c9/a6/bf/c9a6bf78-0584-4d07-2bf1-e4008d879a23/23UMGIM82278.rgb.jpg/300x300bb.jpg"
+    }
+  },
+  "edc-nico-moreno": {
+    "imageUrl": null,
+    "previewTrack": {
+      "name": "Overdose",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ac/32/23/ac322391-9570-99a9-6b46-2e70f5a04950/mzaf_4018029252330586512.plus.aac.p.m4a",
+      "spotifyUrl": "https://music.apple.com/us/album/overdose/1883667392?i=1883667398&uo=4",
+      "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/03/94/c3/0394c39e-3a40-df3f-faa5-674214e8ac5e/cover.jpg/300x300bb.jpg"
+    }
+  },
+  "edc-i-hate-models": {
+    "imageUrl": null,
+    "previewTrack": {
+      "name": "Twin Souls",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/07/79/5e/07795e40-b616-d476-6005-f75c3e45d7c8/mzaf_15868763787806086514.plus.aac.p.m4a",
+      "spotifyUrl": "https://music.apple.com/us/album/twin-souls/1780573146?i=1780573151&uo=4",
+      "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/43/f3/89/43f38996-5fb2-615c-eeeb-fd28487ffa8c/cover.jpg/300x300bb.jpg"
+    }
+  },
+  "edc-levity": {
+    "imageUrl": null,
+    "previewTrack": {
+      "name": "By My Side",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/e3/57/d3/e357d380-966d-7bd2-e1f2-5fba21e2a927/mzaf_8098756954906077484.plus.aac.p.m4a",
+      "spotifyUrl": "https://music.apple.com/us/album/by-my-side/1837282418?i=1837282421&uo=4",
+      "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/b7/c5/1f/b7c51fa9-0f3e-834b-1a77-de9792fce09e/196873582689.jpg/300x300bb.jpg"
+    }
+  },
+  "edc-wooli": {
+    "imageUrl": null,
+    "previewTrack": {
+      "name": "Chaos Theory",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/83/05/a1/8305a15c-d4bd-c78e-c7d5-50aa0e50975f/mzaf_13668817197672216964.plus.aac.p.m4a",
+      "spotifyUrl": "https://music.apple.com/us/album/chaos-theory/1813556345?i=1813556346&uo=4",
+      "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/dc/93/21/dc932161-d93f-5d73-bc54-79b8ad1b570a/199257618363_cover.jpg/300x300bb.jpg"
+    }
+  },
+  "edc-the-outlaw": {
+    "imageUrl": null,
+    "previewTrack": {
+      "name": "Final Fantasy",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/15/ec/22/15ec22f6-5cd0-6442-d00d-0495407f7ab4/mzaf_3293302329757442342.plus.aac.p.m4a",
+      "spotifyUrl": "https://music.apple.com/us/album/final-fantasy/1847992539?i=1847992799&uo=4",
+      "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/50/c6/20/50c62032-996e-090e-cda5-1508bea84dfe/25UM1IM55565.rgb.jpg/300x300bb.jpg"
+    }
+  },
+  "edc-holy-priest": {
+    "imageUrl": null,
+    "previewTrack": {
+      "name": "DOMINATION",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/0b/c7/60/0bc76031-e8ee-d097-c957-7de9f7e6565e/mzaf_3599261846853007969.plus.aac.p.m4a",
+      "spotifyUrl": "https://music.apple.com/us/album/domination/1837670524?i=1837670526&uo=4",
+      "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/44/41/0b/44410bc2-6a1e-8c30-e264-8f43ecf4d218/cover.jpg/300x300bb.jpg"
+    }
+  },
+  "edc-ray-volpe": {
+    "imageUrl": null,
+    "previewTrack": {
+      "name": "SEE YOU DROP",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/bb/95/c0/bb95c0fb-abc6-f3f8-027c-9772863305be/mzaf_6590518528140088040.plus.aac.p.m4a",
+      "spotifyUrl": "https://music.apple.com/us/album/see-you-drop/1728174660?i=1728174662&uo=4",
+      "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/22/1d/c9/221dc9a4-2c3c-8a4f-bd66-b2f475b179b2/742779551429.png/300x300bb.jpg"
+    }
+  },
+  "edc-level-up": {
+    "imageUrl": null,
+    "previewTrack": {
+      "name": "Level Up",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/2f/44/fd/2f44fd5b-abc1-d8d9-cba8-51b82a938ccb/mzaf_14138985362459683100.plus.aac.p.m4a",
+      "spotifyUrl": "https://music.apple.com/us/album/level-up/1777266393?i=1777266403&uo=4",
+      "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c9/51/af/c951af0e-9857-b9aa-2fab-d3f3f4e1bf7b/190296900709.jpg/300x300bb.jpg"
+    }
+  },
+  "edc-jackie-hollander": {
+    "imageUrl": null,
+    "previewTrack": {
+      "name": "People Like Us",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/03/c7/9a/03c79aee-8410-61b2-d0d0-a37c08485b6b/mzaf_3384781324690784531.plus.aac.p.m4a",
+      "spotifyUrl": "https://music.apple.com/us/album/people-like-us/1874641494?i=1874641496&uo=4",
+      "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/4d/63/f7/4d63f7f8-299f-4d99-90ca-0abe53cecc95/5026854653914.jpg/300x300bb.jpg"
+    }
+  },
+  "edc-roddy-lima": {
+    "imageUrl": null,
+    "previewTrack": {
+      "name": "See You Dancing",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/6b/64/b1/6b64b182-da8b-d648-3ad1-ec266b6b67bb/mzaf_15750380335093297086.plus.aac.p.m4a",
+      "spotifyUrl": "https://music.apple.com/us/album/see-you-dancing/1756570945?i=1756570947&uo=4",
+      "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/89/db/72/89db7214-b47c-e0f5-1763-da59cc820308/797885257543_cover.jpg/300x300bb.jpg"
+    }
+  },
+  "edc-westend": {
+    "imageUrl": null,
+    "previewTrack": {
+      "name": "Lighter",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/dc/5a/34/dc5a3476-212d-080b-2a62-25d6099e6466/mzaf_14208120359027870771.plus.aac.p.m4a",
+      "spotifyUrl": "https://music.apple.com/us/album/lighter/1835751221?i=1835751222&uo=4",
+      "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c7/10/32/c7103229-93e0-c5a6-5413-eb4f3001fca7/8721416145216.png/300x300bb.jpg"
+    }
+  },
+  "edc-walker-boyce-vnssa": {
+    "imageUrl": null,
+    "previewTrack": {
+      "name": "Rave Grave",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/7d/a6/b9/7da6b94c-76d7-76bd-1f5c-56e9d6a7991d/mzaf_6389850628542373465.plus.aac.p.m4a",
+      "spotifyUrl": "https://music.apple.com/us/album/rave-grave/1476280281?i=1476280283&uo=4",
+      "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/47/2a/b5/472ab5d6-3d51-f895-9fd0-da313f4992dc/986.jpg/300x300bb.jpg"
+    }
+  },
+  "edc-underworld": {
+    "imageUrl": null,
+    "previewTrack": {
+      "name": "Underworld",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/de/07/9c/de079c13-a289-8459-c841-52e221d649f5/mzaf_9500476963054211232.plus.aac.p.m4a",
+      "spotifyUrl": "https://music.apple.com/us/album/underworld/1845175704?i=1845175707&uo=4",
+      "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/27/1a/c9/271ac925-061a-4bb5-72b5-45fffb094017/193436445672_UNDERWORLDFINALARTWORK.jpg/300x300bb.jpg"
+    }
+  },
+  "edc-meduza": {
+    "imageUrl": null,
+    "previewTrack": {
+      "name": "Lose Control",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/fe/2a/5e/fe2a5ebc-fcfd-fe7f-ae59-d401f79f6131/mzaf_333070139379876942.plus.aac.p.m4a",
+      "spotifyUrl": "https://music.apple.com/us/album/lose-control/1481872806?i=1481872810&uo=4",
+      "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/51/14/e8/5114e83a-4de2-f0e8-9478-7324b3063d19/19UMGIM80656.rgb.jpg/300x300bb.jpg"
+    }
+  },
+  "edc-notion": {
+    "imageUrl": null,
+    "previewTrack": {
+      "name": "Notion",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/56/83/b1/5683b146-1bda-0f16-cce0-f71ee177ed92/mzaf_14341814493413112868.plus.aac.p.m4a",
+      "spotifyUrl": "https://music.apple.com/us/album/notion/1598145620?i=1598145621&uo=4",
+      "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/09/54/1f/09541f3f-7013-a259-b468-88cf507f1319/075679761576.jpg/300x300bb.jpg"
+    }
+  },
+  "edc-mph": {
+    "imageUrl": null,
+    "previewTrack": {
+      "name": "I'm Not Alone (MPH Remix)",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/47/2f/f4/472ff47c-b961-1c72-3cf3-9174348d5558/mzaf_12592873854569866988.plus.aac.p.m4a",
+      "spotifyUrl": "https://music.apple.com/us/album/im-not-alone-mph-remix/1830534655?i=1830534676&uo=4",
+      "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e7/1d/40/e71d4091-8a2c-42ba-08ef-84024033d63d/196873486178.jpg/300x300bb.jpg"
+    }
+  },
+  "edc-san-pacho": {
+    "imageUrl": null,
+    "previewTrack": {
+      "name": "Horny",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/c2/d3/57/c2d357eb-9310-acba-8b92-7306c0aa288b/mzaf_6690888535132790913.plus.aac.p.m4a",
+      "spotifyUrl": "https://music.apple.com/us/album/horny/1761087074?i=1761087075&uo=4",
+      "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/99/b5/d6/99b5d638-15cb-778d-940b-f28220aaa33e/8721093591252.png/300x300bb.jpg"
+    }
+  },
+  "edc-max-dean-luke-dean": {
+    "imageUrl": null,
+    "previewTrack": {
+      "name": "Can't Decide",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/39/1f/87/391f8761-5615-511a-e7a3-c0429bf2f4e8/mzaf_2905322164933953046.plus.aac.p.m4a",
+      "spotifyUrl": "https://music.apple.com/us/album/cant-decide/1814832940?i=1814833151&uo=4",
+      "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/3d/ca/c2/3dcac2a5-6445-3ec3-1d5e-a487aabf94a5/5021732810021.jpg/300x300bb.jpg"
+    }
+  },
+  "edc-riot": {
+    "imageUrl": null,
+    "previewTrack": {
+      "name": "Riot!",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/21/2a/a2/212aa263-b28e-c439-8609-13843a610fd2/mzaf_7518029529303278121.plus.aac.p.m4a",
+      "spotifyUrl": "https://music.apple.com/us/album/riot/1442399872?i=1442400732&uo=4",
+      "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/37/76/22/377622f7-e06e-a1a3-359f-2d305aad0064/886447287286.jpg/300x300bb.jpg"
+    }
+  },
+  "edc-heyz": {
+    "imageUrl": null,
+    "previewTrack": {
+      "name": "Heyz'd and Confused",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/64/d1/ce/64d1ce94-b06e-c213-87ea-dd1d29f9f07d/mzaf_14267285923678026736.plus.aac.p.m4a",
+      "spotifyUrl": "https://music.apple.com/us/album/heyzd-and-confused/1823581417?i=1823581418&uo=4",
+      "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/df/02/46/df024696-9efc-4e86-b552-62ad4df11c4f/8721215748335.png/300x300bb.jpg"
+    }
+  },
+  "edc-muzz": {
+    "imageUrl": null,
+    "previewTrack": {
+      "name": "Not Even Love (MUZZ Remix)",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/76/16/d2/7616d20f-9ba7-91ff-6200-6fc86bae33c5/mzaf_7590346158541002845.plus.aac.p.m4a",
+      "spotifyUrl": "https://music.apple.com/us/album/not-even-love-muzz-remix/1765206253?i=1765206254&uo=4",
+      "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/7c/c6/e1/7cc6e163-551b-f565-219b-52633aa7c9bd/24UMGIM89170.rgb.jpg/300x300bb.jpg"
+    }
+  },
+  "edc-ghengar": {
+    "imageUrl": null,
+    "previewTrack": {
+      "name": "MALEVOLENT SHRINE",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ca/8b/39/ca8b399b-e491-02da-ef0f-c6c89ca36620/mzaf_3889576671050184170.plus.aac.p.m4a",
+      "spotifyUrl": "https://music.apple.com/us/album/malevolent-shrine/1782015395?i=1782015396&uo=4",
+      "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/3b/ee/eb/3beeeb33-58a4-1756-4792-f6e44d81d8ea/723277960975.jpg/300x300bb.jpg"
+    }
+  },
+  "edc-deathpact": {
+    "imageUrl": null,
+    "previewTrack": {
+      "name": "BURN ME DOWN",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/07/44/41/074441d9-ff95-f37f-040f-8fe1907bb9d2/mzaf_12269356228354794761.plus.aac.p.m4a",
+      "spotifyUrl": "https://music.apple.com/us/album/burn-me-down/1879682027?i=1879682028&uo=4",
+      "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/3d/13/e8/3d13e859-6e00-70ab-2915-70f381f28aba/5026854753980.jpg/300x300bb.jpg"
+    }
+  },
+  "edc-atliens": {
+    "imageUrl": null,
+    "previewTrack": {
+      "name": "One Last Breath (Remix)",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/b9/06/4f/b9064fd9-0e4a-f49e-634b-e097eeb09cf5/mzaf_3280669976742929702.plus.aac.p.m4a",
+      "spotifyUrl": "https://music.apple.com/us/album/one-last-breath-remix/1812101814?i=1812101816&uo=4",
+      "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/22/09/42/2209426b-3f60-c716-83f8-57622d0fceb0/25CRGIM49957.rgb.jpg/300x300bb.jpg"
+    }
+  },
+  "edc-kai-wachi": {
+    "imageUrl": null,
+    "previewTrack": {
+      "name": "Hollow",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/1e/20/dd/1e20dd93-2915-4f56-c09a-5fed89fb57f3/mzaf_8847375040380972082.plus.aac.p.m4a",
+      "spotifyUrl": "https://music.apple.com/us/album/hollow/1660897480?i=1660897481&uo=4",
+      "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/c7/9c/7f/c79c7ff7-4294-dc59-b96b-f691e572b138/dj.vhmyuvac.jpg/300x300bb.jpg"
+    }
+  },
+  "edc-adventure-club": {
+    "imageUrl": null,
+    "previewTrack": {
+      "name": "Gold (feat. Yuna)",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/3f/c1/ba/3fc1ba09-cd62-85b4-5d1d-3cb9df5af1df/mzaf_4581368257915950653.plus.aac.p.m4a",
+      "spotifyUrl": "https://music.apple.com/us/album/gold-feat-yuna/1451945790?i=1451945793&uo=4",
+      "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/83/5d/2c/835d2c0b-d4ce-05b4-0457-096c5a7f496c/0859381010418.jpg/300x300bb.jpg"
+    }
+  },
+  "edc-culture-shock": {
+    "imageUrl": null,
+    "previewTrack": {
+      "name": "Miracle",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/b2/29/5a/b2295ac6-af99-7425-9c8f-4489173081d6/mzaf_3888235206765163635.plus.aac.p.m4a",
+      "spotifyUrl": "https://music.apple.com/us/album/miracle/1818382598?i=1818382781&uo=4",
+      "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/43/c2/af/43c2af4e-6c91-a8ee-8145-89d9b49b980f/25UMGIM46653.rgb.jpg/300x300bb.jpg"
+    }
+  },
+  "edc-cyclops": {
+    "imageUrl": null,
+    "previewTrack": {
+      "name": "Cyclops (feat. Marco Minnemann)",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/7f/d8/85/7fd88511-fd94-db24-6fb6-70ab59557cc5/mzaf_1863455022901586934.plus.aac.p.m4a",
+      "spotifyUrl": "https://music.apple.com/us/album/cyclops-feat-marco-minnemann/1715958367?i=1715958368&uo=4",
+      "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/5b/2d/14/5b2d145a-2efe-1fee-c06f-19a58952d0de/artwork.jpg/300x300bb.jpg"
+    }
+  },
+  "edc-anastazia": {
+    "imageUrl": null,
+    "previewTrack": {
+      "name": "Anastasia (feat. Myles Kennedy & the Conspirators)",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/7a/21/25/7a21254e-2074-53c5-452d-bbb0ef44601a/mzaf_10403364902605033962.plus.aac.p.m4a",
+      "spotifyUrl": "https://music.apple.com/us/album/anastasia-feat-myles-kennedy-the-conspirators/720638397?i=720638815&uo=4",
+      "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/fa/f3/d3/faf3d3f9-b364-8b85-a8d8-b4e1506e2da6/05099962473057.rgb.jpg/300x300bb.jpg"
+    }
+  },
+  "edc-matty-ralph": {
+    "imageUrl": null,
+    "previewTrack": {
+      "name": "Ocean Waves",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/24/a2/0a/24a20a10-508d-cbbf-e5c8-a09cc135ab60/mzaf_14819998983270006884.plus.aac.p.m4a",
+      "spotifyUrl": "https://music.apple.com/us/album/ocean-waves/1879748647?i=1879748648&uo=4",
+      "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/60/48/f2/6048f27c-7b07-d88a-d8c2-7c43306d7a4b/8721466012704.png/300x300bb.jpg"
+    }
+  },
+  "edc-mestiza": {
+    "imageUrl": null,
+    "previewTrack": {
+      "name": "Te Doy La Libertad",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f9/6c/bc/f96cbcd1-4270-e8e6-9c54-277ec5e99853/mzaf_1791902462010452504.plus.aac.p.m4a",
+      "spotifyUrl": "https://music.apple.com/us/album/te-doy-la-libertad/1885642017?i=1885642029&uo=4",
+      "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/83/cb/62/83cb620a-692b-9e0c-a4c8-92ad0e7d4124/cover.jpg/300x300bb.jpg"
+    }
+  },
+  "edc-dj-tennis-chloe-caillet": {
+    "imageUrl": null,
+    "previewTrack": {
+      "name": "All In A Dream (feat. DJ Tennis & Joseph Ashworth)",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/48/ed/38/48ed389a-2812-3321-dc01-7bf71bb5e1b9/mzaf_17596502793093460936.plus.aac.p.m4a",
+      "spotifyUrl": "https://music.apple.com/us/album/all-in-a-dream-feat-dj-tennis-joseph-ashworth/1625180437?i=1625180438&uo=4",
+      "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/a4/fb/93/a4fb9325-fc5e-3a1d-d5f2-7ab5100733a3/5054429157727.png/300x300bb.jpg"
+    }
+  },
+  "edc-peggy-gou": {
+    "imageUrl": null,
+    "previewTrack": {
+      "name": "(It Goes Like) Nanana (Edit)",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/23/d9/32/23d93263-a2d6-0ae3-6d41-ce801f4e7900/mzaf_6378555746646043520.plus.aac.p.m4a",
+      "spotifyUrl": "https://music.apple.com/us/album/it-goes-like-nanana-edit/1689088940?i=1689088958&uo=4",
+      "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/29/f6/3b/29f63b48-7297-934e-4ae4-c8c279412c33/191404137420.png/300x300bb.jpg"
+    }
+  },
+  "edc-cosmic-gate": {
+    "imageUrl": null,
+    "previewTrack": {
+      "name": "Exploration of Space",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f0/84/7d/f0847dab-e465-849d-459b-22f5e5815eee/mzaf_4587480642619136011.plus.aac.p.m4a",
+      "spotifyUrl": "https://music.apple.com/us/album/exploration-of-space/1571295992?i=1571295993&uo=4",
+      "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ec/09/08/ec090847-a82b-8745-0b4a-3f685f707d2f/8718525229210.png/300x300bb.jpg"
+    }
+  },
+  "edc-gareth-emery": {
+    "imageUrl": null,
+    "previewTrack": {
+      "name": "Concrete Angel",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/55/50/81/555081c4-528f-b60a-b58d-5407d932da46/mzaf_18420896893279893250.plus.aac.p.m4a",
+      "spotifyUrl": "https://music.apple.com/us/album/concrete-angel/1514854032?i=1514854038&uo=4",
+      "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/77/a7/06/77a706f6-8172-2a6e-8412-ae0f54c941bf/735119491219.jpg/300x300bb.jpg"
+    }
+  },
+  "edc-adriatique": {
+    "imageUrl": null,
+    "previewTrack": null
+  },
+  "edc-joseph-capriati": {
+    "imageUrl": null,
+    "previewTrack": {
+      "name": "Meandri",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/2d/b0/83/2db08331-230a-cb62-8971-bc81aee7d4e5/mzaf_6069905769052395133.plus.aac.p.m4a",
+      "spotifyUrl": "https://music.apple.com/us/album/meandri/1793664116?i=1793664117&uo=4",
+      "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/01/74/60/017460d8-89dd-c30d-9887-bce9dea7f950/5034644435954.jpg/300x300bb.jpg"
+    }
+  },
+  "edc-paul-van-dyk": {
+    "imageUrl": null,
+    "previewTrack": null
+  },
+  "edc-eli-brown": {
+    "imageUrl": null,
+    "previewTrack": {
+      "name": "Be The One",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/7f/94/b1/7f94b177-fd0e-ff26-7fee-be2bf224b088/mzaf_13917222062633355330.plus.aac.p.m4a",
+      "spotifyUrl": "https://music.apple.com/us/album/be-the-one/1677685956?i=1677685964&uo=4",
+      "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/a5/2c/d1/a52cd19b-b1b1-f598-ad55-edf063afd4eb/23UMGIM26228.rgb.jpg/300x300bb.jpg"
+    }
+  },
+  "edc-sarah-de-warren": {
+    "imageUrl": null,
+    "previewTrack": {
+      "name": "Kiss Girls",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/76/d4/39/76d43939-fc54-8b95-8456-cabf9ab74fd2/mzaf_4749385881153386564.plus.aac.p.m4a",
+      "spotifyUrl": "https://music.apple.com/us/album/kiss-girls/1884476274?i=1884476276&uo=4",
+      "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/3b/76/de/3b76deaf-1d85-0a8b-f16c-d183c84e7b14/8201.jpg/300x300bb.jpg"
+    }
+  },
+  "edc-slamm": {
+    "imageUrl": null,
+    "previewTrack": {
+      "name": "K.E.T. (Amine Mix)",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/bc/0a/8a/bc0a8a9e-a467-9183-76c7-eb91a0011fb7/mzaf_8128221016398264652.plus.aac.p.m4a",
+      "spotifyUrl": "https://music.apple.com/us/album/k-e-t-amine-mix/1795483949?i=1795483951&uo=4",
+      "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e2/35/85/e235855e-4279-1665-c8cd-8d8c561615b6/cover.jpg/300x300bb.jpg"
+    }
+  },
+  "edc-cold-blue-van-dijk": {
+    "imageUrl": null,
+    "previewTrack": {
+      "name": "Hard Sometimes",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/c3/6c/04/c36c040c-ad55-2bfd-2135-dee52d838a38/mzaf_9821626377819323439.plus.aac.p.m4a",
+      "spotifyUrl": "https://music.apple.com/us/album/hard-sometimes/1479214508?i=1479214520&uo=4",
+      "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/c0/c1/44/c0c144ba-c6d5-3a94-7fe7-42a2d682607d/886447941478.jpg/300x300bb.jpg"
+    }
+  },
+  "edc-omar-plus": {
+    "imageUrl": null,
+    "previewTrack": {
+      "name": "Back to the 305",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/da/f5/60/daf560ee-a18a-88ae-c82d-d55fe06193c6/mzaf_3447369133099180412.plus.aac.p.m4a",
+      "spotifyUrl": "https://music.apple.com/us/album/back-to-the-305/1893377858?i=1893377883&uo=4",
+      "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/04/3d/a4/043da438-911b-1253-75c2-a0b063200136/827568002648.jpg/300x300bb.jpg"
+    }
+  },
+  "edc-darude": {
+    "imageUrl": null,
+    "previewTrack": null
+  },
+  "edc-luke-dean": {
+    "imageUrl": null,
+    "previewTrack": {
+      "name": "Back to the 305",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/da/f5/60/daf560ee-a18a-88ae-c82d-d55fe06193c6/mzaf_3447369133099180412.plus.aac.p.m4a",
+      "spotifyUrl": "https://music.apple.com/us/album/back-to-the-305/1893377858?i=1893377883&uo=4",
+      "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/04/3d/a4/043da438-911b-1253-75c2-a0b063200136/827568002648.jpg/300x300bb.jpg"
+    }
+  },
+  "edc-josh-baker": {
+    "imageUrl": null,
+    "previewTrack": null
+  },
+  "edc-ilan-bluestone": {
+    "imageUrl": null,
+    "previewTrack": {
+      "name": "Spheres",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/e5/bd/8e/e5bd8e19-9c81-cbfb-4fc5-77b036eadbb0/mzaf_10432567731982489313.plus.aac.p.m4a",
+      "spotifyUrl": "https://music.apple.com/us/album/spheres/796319472?i=796319490&uo=4",
+      "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/f2/94/09/f294096b-e84c-ac2e-3fdd-61621ea001ae/5039060217993.jpg/300x300bb.jpg"
+    }
+  },
+  "edc-max-dean": {
+    "imageUrl": null,
+    "previewTrack": {
+      "name": "Can't Decide",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/39/1f/87/391f8761-5615-511a-e7a3-c0429bf2f4e8/mzaf_2905322164933953046.plus.aac.p.m4a",
+      "spotifyUrl": "https://music.apple.com/us/album/cant-decide/1814832940?i=1814833151&uo=4",
+      "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/3d/ca/c2/3dcac2a5-6445-3ec3-1d5e-a487aabf94a5/5021732810021.jpg/300x300bb.jpg"
+    }
+  },
+  "edc-dyen": {
+    "imageUrl": null,
+    "previewTrack": null
+  },
+  "edc-darren-porter": {
+    "imageUrl": null,
+    "previewTrack": {
+      "name": "Deep Blue",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/62/04/ca/6204ca3f-30ae-d6b1-187f-2d2c20c7f400/mzaf_9871417272349508009.plus.aac.p.m4a",
+      "spotifyUrl": "https://music.apple.com/us/album/deep-blue/1042270117?i=1042270120&uo=4",
+      "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music3/v4/e9/76/76/e9767694-2618-0fe5-2164-fdbd1f44cc33/8718522075315.png/300x300bb.jpg"
+    }
+  },
+  "edc-domina": {
+    "imageUrl": null,
+    "previewTrack": null
+  },
+  "edc-serafina": {
+    "imageUrl": null,
+    "previewTrack": {
+      "name": "Serafina",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/22/42/c9/2242c918-433d-69e3-a889-8abb008c4512/mzaf_5487672429543705732.plus.aac.p.m4a",
+      "spotifyUrl": "https://music.apple.com/us/album/serafina/189385742?i=189386369&uo=4",
+      "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/68/61/52/686152c5-5306-22f1-7ab1-1a30374a2d0f/mzi.cspjgccw.tif/300x300bb.jpg"
+    }
+  },
+  "edc-paramida": {
+    "imageUrl": null,
+    "previewTrack": null
+  },
+  "edc-kuko": {
+    "imageUrl": null,
+    "previewTrack": {
+      "name": "Voicemail",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/25/e1/8f/25e18fc0-19d8-6ec4-3377-57f3df615e49/mzaf_3272842483667093962.plus.aac.p.m4a",
+      "spotifyUrl": "https://music.apple.com/us/album/voicemail/1796029616?i=1796029617&uo=4",
+      "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ac/a2/61/aca261e5-5165-b348-a29a-7efff391a46c/0.jpg/300x300bb.jpg"
+    }
+  },
+  "edc-robert-hood": {
+    "imageUrl": null,
+    "previewTrack": null
+  },
+  "edc-avalon-emerson": {
+    "imageUrl": null,
+    "previewTrack": {
+      "name": "Jupiter and Mars",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/43/8f/73/438f7340-2c30-ca0d-f7fd-d5457b620a87/mzaf_9257324739897853304.plus.aac.p.m4a",
+      "spotifyUrl": "https://music.apple.com/us/album/jupiter-and-mars/1861954566?i=1861954586&uo=4",
+      "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c5/b0/b3/c5b0b32f-2f1f-cedc-083b-b575da0b5650/61112.jpg/300x300bb.jpg"
+    }
+  },
+  "edc-stacy-christiane": {
+    "imageUrl": null,
+    "previewTrack": null
+  },
+  "edc-the-carry-nation": {
+    "imageUrl": null,
+    "previewTrack": {
+      "name": "The Coincidence",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/fd/c4/8d/fdc48d47-8c45-07c5-a574-075282ad9259/mzaf_12001678775831457727.plus.aac.p.m4a",
+      "spotifyUrl": "https://music.apple.com/us/album/the-coincidence/1239484790?i=1239485001&uo=4",
+      "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music117/v4/50/b1/29/50b1299d-b751-cded-0a31-34bdcfde9b31/cover.jpg/300x300bb.jpg"
+    }
+  },
+  "edc-johannes-schuster": {
+    "imageUrl": null,
+    "previewTrack": {
+      "name": "Kiss Me Again (Official Remix)",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/d8/22/2a/d8222a5c-98bb-185c-544c-64740e6d1445/mzaf_224440062918370171.plus.aac.p.m4a",
+      "spotifyUrl": "https://music.apple.com/us/album/kiss-me-again-official-remix/1874553359?i=1874553367&uo=4",
+      "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/0c/c8/55/0cc855a1-d36b-8813-89a3-dcd6d4b19006/820200141033.jpg/300x300bb.jpg"
+    }
+  },
+  "edc-adrian-mills": {
+    "imageUrl": null,
+    "previewTrack": null
+  },
+  "edc-cloudy": {
+    "imageUrl": null,
+    "previewTrack": {
+      "name": "Cloudy",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/fa/8d/e5/fa8de51f-b296-0902-d2a6-f8b9dde9f779/mzaf_15277368230151415485.plus.aac.p.m4a",
+      "spotifyUrl": "https://music.apple.com/us/album/cloudy/1467438660?i=1467438675&uo=4",
+      "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/06/f4/d2/06f4d208-642e-75c0-d905-1ac98e7d441c/886447797075.jpg/300x300bb.jpg"
+    }
+  },
+  "edc-graveor": {
+    "imageUrl": null,
+    "previewTrack": {
+      "name": "Je veux te graver dans ma vie",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/a7/73/ea/a773ea8c-f5ae-66d9-ff1e-705e72ca6671/mzaf_12652579839479671340.plus.aac.p.m4a",
+      "spotifyUrl": "https://music.apple.com/us/album/je-veux-te-graver-dans-ma-vie/1444071729?i=1444072202&uo=4",
+      "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/b0/cb/84/b0cb8459-ce43-8bdd-c10e-37dcc0790652/00731453488328.rgb.jpg/300x300bb.jpg"
+    }
+  },
+  "edc-rebekah": {
+    "imageUrl": null,
+    "previewTrack": null
+  },
+  "edc-heidi-juliet-masha": {
+    "imageUrl": null,
+    "previewTrack": {
+      "name": "Next To You (feat. DJ Harvey & Heidi Lawden) [Kiwi Remix]",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/76/07/a4/7607a426-6361-3c51-67e3-4c7ce39f67d9/mzaf_4951376793223709897.plus.aac.p.m4a",
+      "spotifyUrl": "https://music.apple.com/us/album/next-to-you-feat-dj-harvey-heidi-lawden-kiwi-remix/1677698318?i=1677698988&uo=4",
+      "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/5f/6a/6e/5f6a6eef-77b9-56c0-3bfa-7f17c6465d57/5060786560025.jpg/300x300bb.jpg"
+    }
+  },
+  "edc-massibeland-paojara": {
+    "imageUrl": null,
+    "previewTrack": null
+  },
+  "edc-salute-chloe-caillet": {
+    "imageUrl": null,
+    "previewTrack": {
+      "name": "Salute",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/3a/59/8f/3a598fb7-f0f1-d127-91b9-2c741fb16e6b/mzaf_11885775203432068954.plus.aac.p.m4a",
+      "spotifyUrl": "https://music.apple.com/us/album/salute/734694154?i=734694187&uo=4",
+      "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/33/8a/cb/338acba4-f29c-c4c2-ff02-e84cf0652cda/886444313476.jpg/300x300bb.jpg"
+    }
+  },
+  "edc-arco": {
+    "imageUrl": null,
+    "previewTrack": null
+  },
+  "edc-hayla": {
+    "imageUrl": null,
+    "previewTrack": {
+      "name": "Where You Are",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/01/c0/ec/01c0ecc6-36cb-6a62-faf4-e2617cc2e33d/mzaf_11012603604995349193.plus.aac.p.m4a",
+      "spotifyUrl": "https://music.apple.com/us/album/where-you-are/1673828877?i=1673828907&uo=4",
+      "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/26/86/a9/2686a9dc-0a17-8e7f-82e3-9bb7c53c1494/23UMGIM19042.rgb.jpg/300x300bb.jpg"
+    }
+  },
+  "edc-steve-aoki": {
+    "imageUrl": null,
+    "previewTrack": null
+  },
+  "edc-hardwell": {
+    "imageUrl": null,
+    "previewTrack": {
+      "name": "Spaceman",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/36/5f/ff/365fff7b-9823-e5c4-6604-c6cf87397e49/mzaf_15696332433035571396.plus.aac.p.m4a",
+      "spotifyUrl": "https://music.apple.com/us/album/spaceman/1645561127?i=1645561145&uo=4",
+      "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/fb/29/9f/fb299f62-d180-b66a-b933-547ddf341277/8718521009533.png/300x300bb.jpg"
+    }
+  },
+  "edc-john-summit-d2": {
+    "imageUrl": null,
+    "previewTrack": null
+  },
+  "edc-peggy-gou-kiki": {
+    "imageUrl": null,
+    "previewTrack": {
+      "name": "(It Goes Like) Nanana (Edit)",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/23/d9/32/23d93263-a2d6-0ae3-6d41-ce801f4e7900/mzaf_6378555746646043520.plus.aac.p.m4a",
+      "spotifyUrl": "https://music.apple.com/us/album/it-goes-like-nanana-edit/1689088940?i=1689088958&uo=4",
+      "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/29/f6/3b/29f63b48-7297-934e-4ae4-c8c279412c33/191404137420.png/300x300bb.jpg"
+    }
+  },
+  "edc-subtronics": {
+    "imageUrl": null,
+    "previewTrack": null
+  },
+  "edc-kaskade": {
+    "imageUrl": null,
+    "previewTrack": {
+      "name": "Escape (feat. Hayla)",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/a0/e8/0a/a0e80aac-4e1b-cb4c-861b-8de507c9e90a/mzaf_11058190027283545972.plus.aac.p.m4a",
+      "spotifyUrl": "https://music.apple.com/us/album/escape-feat-hayla/1610019676?i=1610019678&uo=4",
+      "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/bd/82/7b/bd827b05-a324-37fd-5d92-6b0cf1dd40bf/5056167170839_1.jpg/300x300bb.jpg"
+    }
+  },
+  "edc-above-beyond": {
+    "imageUrl": null,
+    "previewTrack": null
+  },
+  "edc-dj-mandy": {
+    "imageUrl": null,
+    "previewTrack": {
+      "name": "Funk U Want",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f0/b9/93/f0b99394-2d24-678d-22c4-52a6d9a68b96/mzaf_16950804963241976419.plus.aac.p.m4a",
+      "spotifyUrl": "https://music.apple.com/us/album/funk-u-want/1820244866?i=1820244947&uo=4",
+      "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/0d/50/f6/0d50f6e7-6dcf-321a-dd1e-fb42456de077/199350962028.jpg/300x300bb.jpg"
+    }
+  },
+  "edc-roz": {
+    "imageUrl": null,
+    "previewTrack": null
+  },
+  "edc-kettama": {
+    "imageUrl": null,
+    "previewTrack": {
+      "name": "It Gets Better (Forever Mix)",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/9a/db/ea/9adbead8-bc2a-9540-7a22-0e68d4e04c3a/mzaf_16745254571920417167.plus.aac.p.m4a",
+      "spotifyUrl": "https://music.apple.com/us/album/it-gets-better-forever-mix/1830332328?i=1830332331&uo=4",
+      "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/7b/e6/69/7be66965-a320-b51b-0394-5ebfe348a581/1636.jpg/300x300bb.jpg"
+    }
+  },
+  "edc-vtss": {
+    "imageUrl": null,
+    "previewTrack": null
+  },
+  "edc-the-prodigy": {
+    "imageUrl": null,
+    "previewTrack": {
+      "name": "Breathe",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/31/e2/e4/31e2e42a-5a09-27c6-4913-39e61571042f/mzaf_6701520049005788964.plus.aac.p.m4a",
+      "spotifyUrl": "https://music.apple.com/us/album/breathe/500162127?i=500162140&uo=4",
+      "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/96/8b/08/968b08e4-cb2b-54c2-32bb-dba77ad1c2ca/634904912161.png/300x300bb.jpg"
+    }
+  },
+  "edc-bunt": {
+    "imageUrl": null,
+    "previewTrack": {
+      "name": "Clouds",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/1c/18/bf/1c18bf15-e194-637a-bca5-e043f4420102/mzaf_6851681045785537612.plus.aac.p.m4a",
+      "spotifyUrl": "https://music.apple.com/us/album/clouds/1668459006?i=1668459118&uo=4",
+      "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/15/37/e7/1537e71d-b870-b737-8610-3fe551439209/197511887166.jpg/300x300bb.jpg"
+    }
+  },
+  "edc-boys-noize": {
+    "imageUrl": null,
+    "previewTrack": null
+  },
+  "edc-malugi": {
+    "imageUrl": null,
+    "previewTrack": {
+      "name": "I Feel The Love",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/96/47/7d/96477d0b-5632-bd66-d651-ebd3e05874db/mzaf_8321685849333212482.plus.aac.p.m4a",
+      "spotifyUrl": "https://music.apple.com/us/album/i-feel-the-love/1878187620?i=1878187632&uo=4",
+      "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/b8/63/2d/b8632d38-eede-ba41-1b76-6551939dd888/5026854730424.jpg/300x300bb.jpg"
+    }
+  },
+  "edc-lilly-palmer": {
+    "imageUrl": null,
+    "previewTrack": null
+  },
+  "edc-fallen-mc-dino": {
+    "imageUrl": null,
+    "previewTrack": null
+  },
+  "edc-hybrid-minds": {
+    "imageUrl": null,
+    "previewTrack": {
+      "name": "Found You",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/d9/89/87/d989876f-d815-0373-b068-b518167c75bc/mzaf_3198468756212987235.plus.aac.p.m4a",
+      "spotifyUrl": "https://music.apple.com/us/album/found-you/1880436275?i=1880436276&uo=4",
+      "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c6/c4/fe/c6c4fe38-dfa4-4c46-3fff-5cc38b17a001/5055199582160.png/300x300bb.jpg"
+    }
+  },
+  "edc-ahmed-spins": {
+    "imageUrl": null,
+    "previewTrack": null
+  },
+  "edc-delta-heavy": {
+    "imageUrl": null,
+    "previewTrack": {
+      "name": "White Flag",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/24/e0/41/24e04139-d6e5-4cc9-9f24-5d6004e6fd03/mzaf_10349947820648263238.plus.aac.p.m4a",
+      "spotifyUrl": "https://music.apple.com/us/album/white-flag/1444905878?i=1444905943&uo=4",
+      "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/55/16/2e/55162e1b-6f1d-3372-2798-95c5777b6665/4050538268713.jpg/300x300bb.jpg"
+    }
+  },
+  "edc-getter": {
+    "imageUrl": null,
+    "previewTrack": null
+  },
+  "edc-eptic-space-laces": {
+    "imageUrl": null,
+    "previewTrack": {
+      "name": "Light Up",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f2/bc/33/f2bc332d-40ce-fe01-bb42-02f39bd76d2a/mzaf_17979380150797445472.plus.aac.p.m4a",
+      "spotifyUrl": "https://music.apple.com/us/album/light-up/1793443009?i=1793443010&uo=4",
+      "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/8d/83/43/8d83437e-3934-c025-7058-4d712ca024ca/663918062715.jpg/300x300bb.jpg"
+    }
+  },
+  "edc-hol": {
+    "imageUrl": null,
+    "previewTrack": null
+  },
+  "edc-mink": {
+    "imageUrl": null,
+    "previewTrack": {
+      "name": "Mink",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/19/31/c6/1931c6c1-a163-911f-2a0d-399c72fb87c4/mzaf_8901910739366585454.plus.aac.p.m4a",
+      "spotifyUrl": "https://music.apple.com/us/album/mink/1896064702?i=6765767951&uo=4",
+      "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c3/69/32/c369326e-5f72-9b19-77fd-37a6555f370b/823375157687_Cover.jpg/300x300bb.jpg"
+    }
+  },
+  "edc-silvie-loto": {
+    "imageUrl": null,
+    "previewTrack": null
+  },
+  "edc-paul-oakenfold": {
+    "imageUrl": null,
+    "previewTrack": {
+      "name": "Starry Eyed Surprise (feat. Shifty Shellshock & Crazy Town)",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ec/91/a6/ec91a63c-5ecc-c873-1529-a9772218ab21/mzaf_15145582911563176125.plus.aac.p.m4a",
+      "spotifyUrl": "https://music.apple.com/us/album/starry-eyed-surprise-feat-shifty-shellshock-crazy-town/1816496372?i=1816496501&uo=4",
+      "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/5c/67/e3/5c67e354-263e-9709-4272-b25ac8fc4915/885012032726.png/300x300bb.jpg"
+    }
+  },
+  "edc-luciano": {
+    "imageUrl": null,
+    "previewTrack": null
+  },
+  "edc-maddix": {
+    "imageUrl": null,
+    "previewTrack": {
+      "name": "Meet Her At The Love Parade (feat. Kiki Solvej)",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/92/29/d8/9229d819-759f-a062-cd9b-c716031fa6c6/mzaf_3753338765318219234.plus.aac.p.m4a",
+      "spotifyUrl": "https://music.apple.com/us/album/meet-her-at-the-love-parade-feat-kiki-solvej/1743029407?i=1743029598&uo=4",
+      "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/2e/8b/32/2e8b328e-df82-fe83-e2ba-0b9131d11e82/198391970559.jpg/300x300bb.jpg"
+    }
+  },
+  "edc-prospa": {
+    "imageUrl": null,
+    "previewTrack": null
+  },
+  "edc-wax-motif": {
+    "imageUrl": null,
+    "previewTrack": {
+      "name": "WET",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/fb/87/1b/fb871b3e-1ac7-1e5d-0cc4-1f55e98d49f0/mzaf_10134067336995807160.plus.aac.p.m4a",
+      "spotifyUrl": "https://music.apple.com/us/album/wet/1466711652?i=1466711653&uo=4",
+      "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b4/fc/b5/b4fcb56b-3f20-a668-e687-3bc7f150fd57/941.jpg/300x300bb.jpg"
+    }
+  },
+  "edc-cid": {
+    "imageUrl": null,
+    "previewTrack": null
+  },
+  "edc-hntr": {
+    "imageUrl": null,
+    "previewTrack": {
+      "name": "No Brake$ (feat. Roshin)",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/4c/2f/3e/4c2f3edf-ad18-e65b-2e64-8bdf21c5e742/mzaf_2080558116015778497.plus.aac.p.m4a",
+      "spotifyUrl": "https://music.apple.com/us/album/no-brake%24-feat-roshin/1779985250?i=1779985252&uo=4",
+      "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/2a/56/53/2a565313-2c23-d9f2-ce39-f005b8865994/823675320637_Cover.jpg/300x300bb.jpg"
+    }
+  },
+  "edc-t78": {
+    "imageUrl": null,
+    "previewTrack": null
+  },
+  "edc-maria-healy": {
+    "imageUrl": null,
+    "previewTrack": {
+      "name": "Sweetheart",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/6e/40/c4/6e40c4b4-bbf4-e3bc-28a6-08d973bfd2be/mzaf_17402155322972065038.plus.aac.p.m4a",
+      "spotifyUrl": "https://music.apple.com/us/album/sweetheart/1673298823?i=1673298825&uo=4",
+      "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/c2/44/93/c24493e7-6007-22bd-0f35-5614ad565868/8718525168717.png/300x300bb.jpg"
+    }
+  },
+  "edc-dreya-v": {
+    "imageUrl": null,
+    "previewTrack": null
+  },
+  "edc-andrew-rayel": {
+    "imageUrl": null,
+    "previewTrack": {
+      "name": "One In a Million (feat. Jonathan Mendelsohn)",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/94/47/4b/94474b3e-da44-c120-221e-f01ca94e9b93/mzaf_11729998021817225377.plus.aac.p.m4a",
+      "spotifyUrl": "https://music.apple.com/us/album/one-in-a-million-feat-jonathan-mendelsohn/871193361?i=871193388&uo=4",
+      "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/fa/39/92/fa3992e3-5a6e-d01a-acac-3a6fd0cf0ee6/8718522041723.jpg/300x300bb.jpg"
+    }
+  },
+  "edc-mathame": {
+    "imageUrl": null,
+    "previewTrack": null
+  },
+  "edc-lady-faith-lny-tnz": {
+    "imageUrl": null,
+    "previewTrack": {
+      "name": "Pleasure & Pain",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/fc/b2/68/fcb2684b-7d7a-4688-97f4-0c187a2d05e4/mzaf_13634406656113920634.plus.aac.p.m4a",
+      "spotifyUrl": "https://music.apple.com/us/album/pleasure-pain/455974563?i=455974631&uo=4",
+      "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music/93/0c/20/mzi.zwicukur.jpg/300x300bb.jpg"
+    }
+  },
+  "edc-da-tweekaz": {
+    "imageUrl": null,
+    "previewTrack": null
+  },
+  "edc-lil-texas": {
+    "imageUrl": null,
+    "previewTrack": {
+      "name": "Die Young",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/d7/de/6a/d7de6a1c-ae84-5f8b-2e09-267027bd53fa/mzaf_1095073184726699121.plus.aac.p.m4a",
+      "spotifyUrl": "https://music.apple.com/us/album/die-young/1818893085?i=1818893086&uo=4",
+      "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/43/be/57/43be5755-f589-5cf3-2409-b8405a7b7434/663918287354.jpg/300x300bb.jpg"
+    }
+  },
+  "edc-mish": {
+    "imageUrl": null,
+    "previewTrack": null
+  },
+  "edc-alyssa-jolee": {
+    "imageUrl": null,
+    "previewTrack": {
+      "name": "LAURELES",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/53/84/0b/53840b4d-0f94-4e6d-fa00-d69decbe7582/mzaf_9175914869637193637.plus.aac.p.m4a",
+      "spotifyUrl": "https://music.apple.com/us/album/laureles/1838390618?i=1838390619&uo=4",
+      "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/cd/d1/c9/cdd1c9b1-f834-23db-f333-8e9c462aa205/artwork.jpg/300x300bb.jpg"
+    }
+  },
+  "edc-trace": {
+    "imageUrl": null,
+    "previewTrack": null
+  },
+  "edc-ship-wrek": {
+    "imageUrl": null,
+    "previewTrack": {
+      "name": "Only a Fool",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/37/75/d1/3775d11f-7796-9c81-4931-8895f618e0fe/mzaf_18269828274997472245.plus.aac.p.m4a",
+      "spotifyUrl": "https://music.apple.com/us/album/only-a-fool/1514519413?i=1514519415&uo=4",
+      "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/b5/ad/e6/b5ade6fe-c460-a0a0-2726-eece9f483e03/075679813633.jpg/300x300bb.jpg"
+    }
+  },
+  "edc-layton-giordani": {
+    "imageUrl": null,
+    "previewTrack": null
+  },
+  "edc-funk-tribu": {
+    "imageUrl": null,
+    "previewTrack": {
+      "name": "Phonky Tribu",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/f8/64/6e/f8646e4c-4689-7b70-c3cf-5e4a65bccdc5/mzaf_6751058878512816685.plus.aac.p.m4a",
+      "spotifyUrl": "https://music.apple.com/us/album/phonky-tribu/1671019558?i=1671019702&uo=4",
+      "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/b6/2f/9b/b62f9b0d-cccc-488d-a447-86b39ce907f4/cover.jpg/300x300bb.jpg"
+    }
+  },
+  "edc-griz-wooli": {
+    "imageUrl": null,
+    "previewTrack": null
+  },
+  "edc-zedd": {
+    "imageUrl": null,
+    "previewTrack": null
+  },
+  "edc-martin-garrix": {
+    "imageUrl": null,
+    "previewTrack": null
+  },
+  "edc-armin-van-buuren": {
+    "imageUrl": null,
+    "previewTrack": {
+      "name": "This Is What It Feels Like (feat. Trevor Guthrie)",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/53/6d/26/536d2604-43c8-2192-a397-eded9ecf81a4/mzaf_12299472277984743651.plus.aac.p.m4a",
+      "spotifyUrl": "https://music.apple.com/us/album/this-is-what-it-feels-like-feat-trevor-guthrie/626898249?i=626898256&uo=4",
+      "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/94/2f/7d/942f7db7-8f8f-9cd3-49ea-f0b31b421dde/8718522020803.png/300x300bb.jpg"
+    }
+  },
+  "edc-linska": {
+    "imageUrl": null,
+    "previewTrack": null
+  },
+  "edc-nostalgix": {
+    "imageUrl": null,
+    "previewTrack": {
+      "name": "Shine",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/06/dc/e4/06dce483-ea77-9c12-8986-a7d6555609ce/mzaf_11441465850883412341.plus.aac.p.m4a",
+      "spotifyUrl": "https://music.apple.com/us/album/shine/1881885180?i=1881885189&uo=4",
+      "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/59/c6/84/59c6842a-438e-c75e-bb2d-4c2506b4a61b/742779560568.png/300x300bb.jpg"
+    }
+  },
+  "edc-anna": {
+    "imageUrl": null,
+    "previewTrack": null
+  },
+  "edc-beltran": {
+    "imageUrl": null,
+    "previewTrack": {
+      "name": "Saquarema",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/65/00/11/650011dc-6e64-68db-3492-0715eff6c6a6/mzaf_2905607092802317072.plus.aac.p.m4a",
+      "spotifyUrl": "https://music.apple.com/us/album/saquarema/1870306061?i=1870306062&uo=4",
+      "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ad/ff/31/adff31ae-99d6-13d0-98f7-aa4a85ff5fe0/cover.jpg/300x300bb.jpg"
+    }
+  },
+  "edc-dabin": {
+    "imageUrl": null,
+    "previewTrack": null
+  },
+  "edc-chris-stussy": {
+    "imageUrl": null,
+    "previewTrack": {
+      "name": "Desire",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/3c/32/15/3c321576-3baf-57fa-a76e-8f1d967004ac/mzaf_9215222621867539150.plus.aac.p.m4a",
+      "spotifyUrl": "https://music.apple.com/us/album/desire/1744599883?i=1744599886&uo=4",
+      "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e2/52/13/e252138e-ad1d-0e85-4d5b-88c6da577cb7/197190967067_Cover.jpg/300x300bb.jpg"
+    }
+  },
+  "edc-solomun": {
+    "imageUrl": null,
+    "previewTrack": null
+  },
+  "edc-vintage-culture": {
+    "imageUrl": null,
+    "previewTrack": {
+      "name": "Freaky 1",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ad/c6/0c/adc60c70-af02-29c9-5ca9-b8cb7ccc5502/mzaf_15184676866438137021.plus.aac.p.m4a",
+      "spotifyUrl": "https://music.apple.com/us/album/freaky-1/1887636545?i=1887636546&uo=4",
+      "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/82/0c/0c/820c0c27-c928-746e-1c0b-41c7c030eac2/0.jpg/300x300bb.jpg"
+    }
+  },
+  "edc-kevin-de-vries": {
+    "imageUrl": null,
+    "previewTrack": null
+  },
+  "edc-bad-beat": {
+    "imageUrl": null,
+    "previewTrack": {
+      "name": "Bad Beat",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/c7/15/3a/c7153a6e-c615-c622-e7b2-f8d6e645b2e4/mzaf_138822115389240274.plus.aac.p.m4a",
+      "spotifyUrl": "https://music.apple.com/us/album/bad-beat/1827325630?i=1827325635&uo=4",
+      "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d7/34/ae/d734aed8-b59c-f28b-bac7-7e36c338a6b2/810202530300.png/300x300bb.jpg"
+    }
+  },
+  "edc-frankie-bones": {
+    "imageUrl": null,
+    "previewTrack": null
+  },
+  "edc-rebuke": {
+    "imageUrl": null,
+    "previewTrack": {
+      "name": "Syren",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ec/e2/2e/ece22e10-9c11-d80f-bf29-31f114007893/mzaf_17074108862330577843.plus.aac.p.m4a",
+      "spotifyUrl": "https://music.apple.com/us/album/syren/1698793877?i=1698794079&uo=4",
+      "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/9b/33/03/9b33033b-4796-8d8b-9933-4b73c74e429a/23UMGIM71978.rgb.jpg/300x300bb.jpg"
+    }
+  },
+  "edc-adiel": {
+    "imageUrl": null,
+    "previewTrack": null
+  },
+  "edc-eli-fur": {
+    "imageUrl": null,
+    "previewTrack": null
+  },
+  "edc-tinlicker": {
+    "imageUrl": null,
+    "previewTrack": null
+  },
+  "edc-cassian": {
+    "imageUrl": null,
+    "previewTrack": {
+      "name": "A Feeling I Miss",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/b3/f9/bd/b3f9bd01-cdbc-e51f-f6e9-b30f7911605c/mzaf_8449110999397548125.plus.aac.p.m4a",
+      "spotifyUrl": "https://music.apple.com/us/album/a-feeling-i-miss/1846937341?i=1846937559&uo=4",
+      "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b6/4d/16/b64d163f-cc92-338f-700a-68c6e11712ae/dj.ouqgjwww.jpg/300x300bb.jpg"
+    }
+  },
+  "edc-kiki": {
+    "imageUrl": null,
+    "previewTrack": null
+  },
+  "edc-klo": {
+    "imageUrl": null,
+    "previewTrack": {
+      "name": "Stash Pad (feat. Kursa Lone Drum Osmetic)",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/60/11/df/6011df02-6e02-742f-3d62-8b20c393e582/mzaf_17282008426680222292.plus.aac.p.m4a",
+      "spotifyUrl": "https://music.apple.com/us/album/stash-pad-feat-kursa-lone-drum-osmetic/1258568464?i=1258569072&uo=4",
+      "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/7a/fb/26/7afb2699-2004-72a0-0929-f3d10ca79bac/5050580675926.png/300x300bb.jpg"
+    }
+  },
+  "edc-shingo-nakamura": {
+    "imageUrl": null,
+    "previewTrack": null
+  },
+  "edc-cristoph": {
+    "imageUrl": null,
+    "previewTrack": null
+  },
+  "edc-skream": {
+    "imageUrl": null,
+    "previewTrack": null
+  },
+  "edc-hamdi": {
+    "imageUrl": null,
+    "previewTrack": null
+  },
+  "edc-silva-bumpa": {
+    "imageUrl": null,
+    "previewTrack": null
+  },
+  "edc-massano": {
+    "imageUrl": null,
+    "previewTrack": {
+      "name": "The Feeling",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/a4/19/75/a41975f8-1006-ff9c-2331-054cfe2d35ff/mzaf_18159897655971967553.plus.aac.p.m4a",
+      "spotifyUrl": "https://music.apple.com/us/album/the-feeling/1793074779?i=1793074780&uo=4",
+      "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/66/5d/a2/665da278-2156-118e-c725-aeadf1ba1dc3/8058365857717_cover.jpg/300x300bb.jpg"
+    }
+  },
+  "edc-lu-re": {
+    "imageUrl": null,
+    "previewTrack": null
+  },
+  "edc-graverz": {
+    "imageUrl": null,
+    "previewTrack": {
+      "name": "Call Me Back (feat. Elhae)",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/07/68/9c/07689c9e-3cca-63d8-34c3-caa6bb18717c/mzaf_5217725775265251079.plus.aac.p.m4a",
+      "spotifyUrl": "https://music.apple.com/us/album/call-me-back-feat-elhae/1059194520?i=1059194521&uo=4",
+      "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music71/v4/ab/f2/c2/abf2c2fb-e0a0-b90d-152e-c346eda3f849/mzm.oggvbuqn.jpg/300x300bb.jpg"
+    }
+  },
+  "edc-william-black": {
+    "imageUrl": null,
+    "previewTrack": null
+  },
+  "edc-san-holo": {
+    "imageUrl": null,
+    "previewTrack": null
+  },
+  "edc-virtual-riot": {
+    "imageUrl": null,
+    "previewTrack": null
+  },
+  "edc-alison-wonderland": {
+    "imageUrl": null,
+    "previewTrack": {
+      "name": "I Want U",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/db/2d/c6/db2dc691-d7a5-279d-c5ec-530413a248aa/mzaf_6861489356168256370.plus.aac.p.m4a",
+      "spotifyUrl": "https://music.apple.com/us/album/i-want-u/1440826214?i=1440826600&uo=4",
+      "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/d9/27/29/d92729b1-1c8e-089e-2f0f-4b5b62af6549/00602547183996.rgb.jpg/300x300bb.jpg"
+    }
+  },
+  "edc-whethan": {
+    "imageUrl": null,
+    "previewTrack": null
+  },
+  "edc-sippy": {
+    "imageUrl": null,
+    "previewTrack": {
+      "name": "Get Wompy",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/90/62/fe/9062fea6-b184-4f3f-168b-f68443ff44dd/mzaf_15285398455539235322.plus.aac.p.m4a",
+      "spotifyUrl": "https://music.apple.com/us/album/get-wompy/1690244617?i=1690244619&uo=4",
+      "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/3b/9a/bb/3b9abbaf-890b-f28c-6eb4-94d894ec8c9e/742779548566.png/300x300bb.jpg"
+    }
+  },
+  "edc-ezybaked": {
+    "imageUrl": null,
+    "previewTrack": null
+  },
+  "edc-infekt-samplifire": {
+    "imageUrl": null,
+    "previewTrack": null
+  },
+  "edc-peekaboo": {
+    "imageUrl": null,
+    "previewTrack": null
+  },
+  "edc-999999999": {
+    "imageUrl": null,
+    "previewTrack": null
+  },
+  "edc-black-tiger-sex-machine": {
+    "imageUrl": null,
+    "previewTrack": null
+  },
+  "edc-indira-paganotto": {
+    "imageUrl": null,
+    "previewTrack": {
+      "name": "Dragon",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/cf/06/80/cf0680ed-85f1-6a62-341d-0d10833e2fae/mzaf_15927468080596269526.plus.aac.p.m4a",
+      "spotifyUrl": "https://music.apple.com/us/album/dragon/1816706071?i=1816706072&uo=4",
+      "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b7/2f/2d/b72f2d21-8ab2-0bad-4356-6fb164488503/8718522551536.png/300x300bb.jpg"
+    }
+  },
+  "edc-sihk": {
+    "imageUrl": null,
+    "previewTrack": null
+  },
+  "edc-kream": {
+    "imageUrl": null,
+    "previewTrack": {
+      "name": "Water (feat. ZOHARA)",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/58/33/8e/58338e3c-e49a-68d3-e5a8-f45b51da03e0/mzaf_2625900313899899028.plus.aac.p.m4a",
+      "spotifyUrl": "https://music.apple.com/us/album/water-feat-zohara/1535486217?i=1535486219&uo=4",
+      "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/42/47/34/4247340e-83d1-1a44-d0bd-f62753efc9d5/075679799913.jpg/300x300bb.jpg"
+    }
+  },
+  "edc-alves": {
+    "imageUrl": null,
+    "previewTrack": null
+  },
+  "edc-vieze-asbak": {
+    "imageUrl": null,
+    "previewTrack": {
+      "name": "Meet Her At The Love Parade (Beuk Mix)",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/68/87/a7/6887a75b-c0d9-97de-2f27-4d02a8284c87/mzaf_17219610791873307068.plus.aac.p.m4a",
+      "spotifyUrl": "https://music.apple.com/us/album/meet-her-at-the-love-parade-beuk-mix/1790289514?i=1790289515&uo=4",
+      "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e1/12/b4/e112b4ec-0f5c-530c-cf28-5cd7766924c6/8720623091408.jpg/300x300bb.jpg"
+    }
+  },
+  "edc-warface": {
+    "imageUrl": null,
+    "previewTrack": null
+  },
+  "edc-morgan-seatree": {
+    "imageUrl": null,
+    "previewTrack": null
+  },
+  "edc-dj-gigola": {
+    "imageUrl": null,
+    "previewTrack": null
+  },
+  "edc-cloonee": {
+    "imageUrl": null,
+    "previewTrack": {
+      "name": "Stephanie",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/d0/1e/40/d01e4015-c383-2c2a-9445-f47edb4ae5e0/mzaf_10847000075002169806.plus.aac.p.m4a",
+      "spotifyUrl": "https://music.apple.com/us/album/stephanie/1779339882?i=1779339883&uo=4",
+      "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/97/e4/10/97e41086-cff2-f7b5-83b3-3a085b4d2026/cover.jpg/300x300bb.jpg"
+    }
+  },
+  "edc-armin-de-vries": {
+    "imageUrl": null,
+    "previewTrack": null
   }
 }
